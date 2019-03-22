@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE pinplan>
+<pinplan intended_family="Arria II GX" variation_name="XCVR_3125_4ch" megafunction_name="ALTGX" specifies="all_ports">
+<global>
+<pin name="cal_blk_clk" direction="input" scope="external"  />
+<pin name="pll_inclk" direction="input" scope="external"  />
+<pin name="reconfig_clk" direction="input" scope="external"  />
+<pin name="reconfig_togxb[3..0]" direction="input" scope="external"  />
+<pin name="rx_coreclk[3..0]" direction="input" scope="external"  />
+<pin name="rx_cruclk[3..0]" direction="input" scope="external"  />
+<pin name="rx_datain[3..0]" direction="input" scope="external"  />
+<pin name="rx_digitalreset[3..0]" direction="input" scope="external"  />
+<pin name="rx_enapatternalign[3..0]" direction="input" scope="external"  />
+<pin name="rx_seriallpbken[3..0]" direction="input" scope="external"  />
+<pin name="tx_coreclk[3..0]" direction="input" scope="external"  />
+<pin name="tx_ctrlenable[7..0]" direction="input" scope="external"  />
+<pin name="tx_datain[63..0]" direction="input" scope="external"  />
+<pin name="tx_digitalreset[3..0]" direction="input" scope="external"  />
+<pin name="pll_locked[0..0]" direction="output" scope="external"  />
+<pin name="reconfig_fromgxb[16..0]" direction="output" scope="external"  />
+<pin name="rx_clkout[3..0]" direction="output" scope="external"  />
+<pin name="rx_ctrldetect[7..0]" direction="output" scope="external"  />
+<pin name="rx_dataout[63..0]" direction="output" scope="external"  />
+<pin name="rx_disperr[7..0]" direction="output" scope="external"  />
+<pin name="rx_errdetect[7..0]" direction="output" scope="external"  />
+<pin name="rx_freqlocked[3..0]" direction="output" scope="external"  />
+<pin name="rx_patterndetect[7..0]" direction="output" scope="external"  />
+<pin name="rx_syncstatus[7..0]" direction="output" scope="external"  />
+<pin name="tx_clkout[3..0]" direction="output" scope="external"  />
+<pin name="tx_dataout[3..0]" direction="output" scope="external"  />
+
+</global>
+</pinplan>

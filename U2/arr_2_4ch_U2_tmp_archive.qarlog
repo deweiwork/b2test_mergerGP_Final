@@ -1,0 +1,71 @@
+Quartus Prime Archive log --	/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/arr_2_4ch_U2_tmp_archive.qarlog
+
+Archive:	/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/arr_2_4ch_U2_tmp_archive.qar
+Date:		Tue Jan  8 21:42:03 2019
+Quartus Prime		18.1.0 Build 625 09/12/2018 SJ Standard Edition
+
+	=========== Files Selected: ===========
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/arr_2_4ch_U2.qpf
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/db/stp1_auto_stripped.stp
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/stp1.stp
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/stx_4_1ch.qsf
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/stx_4_1ch_assignment_defaults.qdf
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/DFF_Custom.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/DataStruct_param_def_header.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.cmp
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.ppf
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.qip
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.cmp
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.qip
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer.qsys
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer.sopcinfo
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer.bsf
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer.cmp
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer.csv
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer.html
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer.ppf
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer.spd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer.xml
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer_bb.v
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer_generation.rpt
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer_inst.v
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/clk_buffer_inst.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/greybox/clk_buffer.v
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/aldec/rivierapro_setup.tcl
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/cadence/cds.lib
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/cadence/cds_libs/altclkctrl_0.cds.lib
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/cadence/hdl.var
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/cadence/ncsim_setup.sh
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/clk_buffer.sip
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/clk_buffer.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/mentor/msim_setup.tcl
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/submodules/clk_buffer_altclkctrl_0.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/synopsys/vcsmx/synopsys_sim.setup
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/simulation/synopsys/vcsmx/vcsmx_setup.sh
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/synthesis/clk_buffer.debuginfo
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/synthesis/clk_buffer.qip
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/synthesis/clk_buffer.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/IP/clk_buffer/clk_buffer/synthesis/submodules/clk_buffer_altclkctrl_0.v
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/XCVR_8B10B_interconnect.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/XCVR_top.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/clock_divider.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/frame_check.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/frame_gen.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/lane_up_condition_checker.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/n_in_1_out_and_gate.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/n_in_1_out_and_gate_1clk.vhd
+/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/src/traffical.vhd
+	======= Total: 54 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Tue Jan  8 21:42:04 2019
+Source archive file:	/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U2/arr_2_4ch_U2_tmp_archive.qar
+Archive was extracted into	/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/copy_test/
+		 - successfully.

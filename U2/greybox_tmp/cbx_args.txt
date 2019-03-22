@@ -1,0 +1,13 @@
+CBX_BLACKBOX_LIST=-lpm_mux
+INTENDED_DEVICE_FAMILY="Arria II GX"
+NUMBER_OF_CHANNELS=4
+NUMBER_OF_RECONFIG_PORTS=1
+enable_buf_cal=true
+reconfig_fromgxb_width=17
+reconfig_togxb_width=4
+DEVICE_FAMILY="Arria II GX"
+CBX_AUTO_BLACKBOX=ALL
+reconfig_clk
+reconfig_fromgxb
+busy
+reconfig_togxb

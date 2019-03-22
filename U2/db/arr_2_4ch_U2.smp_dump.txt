@@ -1,0 +1,122 @@
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|reset_logic:rst_logic|lane_up_status
+Name lane_up_status.now_xcvr_init_done lane_up_status.pre_lane_up lane_up_status.comma_align lane_up_status.wait_locked lane_up_status.power_on 
+lane_up_status.power_on 0 0 0 0 0 
+lane_up_status.wait_locked 0 0 0 1 1 
+lane_up_status.comma_align 0 0 1 0 1 
+lane_up_status.pre_lane_up 0 1 0 0 1 
+lane_up_status.now_xcvr_init_done 1 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|rx_status
+Name rx_status.wait_client_data rx_status.sync_align rx_status.wait_pattern_B rx_status.wait_pattern_k1 rx_status.wait_pattern_k0 rx_status.idle 
+rx_status.idle 0 0 0 0 0 0 
+rx_status.wait_pattern_k0 0 0 0 0 1 1 
+rx_status.wait_pattern_k1 0 0 0 1 0 1 
+rx_status.wait_pattern_B 0 0 1 0 0 1 
+rx_status.sync_align 0 1 0 0 0 1 
+rx_status.wait_client_data 1 0 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:3:traffic|tx_status
+Name tx_status.sent_client_data tx_status.sent_sync_patterns tx_status.sent_pattern_B_wait_rx_obtain tx_status.sent_pattern_k1_wait_rx_obtain tx_status.sent_pattern_k0_wait_rx_obtain tx_status.idle 
+tx_status.idle 0 0 0 0 0 0 
+tx_status.sent_pattern_k0_wait_rx_obtain 0 0 0 0 1 1 
+tx_status.sent_pattern_k1_wait_rx_obtain 0 0 0 1 0 1 
+tx_status.sent_pattern_B_wait_rx_obtain 0 0 1 0 0 1 
+tx_status.sent_sync_patterns 0 1 0 0 0 1 
+tx_status.sent_client_data 1 0 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:2:traffic|rx_status
+Name rx_status.wait_client_data rx_status.sync_align rx_status.wait_pattern_B rx_status.wait_pattern_k1 rx_status.wait_pattern_k0 rx_status.idle 
+rx_status.idle 0 0 0 0 0 0 
+rx_status.wait_pattern_k0 0 0 0 0 1 1 
+rx_status.wait_pattern_k1 0 0 0 1 0 1 
+rx_status.wait_pattern_B 0 0 1 0 0 1 
+rx_status.sync_align 0 1 0 0 0 1 
+rx_status.wait_client_data 1 0 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:2:traffic|tx_status
+Name tx_status.sent_client_data tx_status.sent_sync_patterns tx_status.sent_pattern_B_wait_rx_obtain tx_status.sent_pattern_k1_wait_rx_obtain tx_status.sent_pattern_k0_wait_rx_obtain tx_status.idle 
+tx_status.idle 0 0 0 0 0 0 
+tx_status.sent_pattern_k0_wait_rx_obtain 0 0 0 0 1 1 
+tx_status.sent_pattern_k1_wait_rx_obtain 0 0 0 1 0 1 
+tx_status.sent_pattern_B_wait_rx_obtain 0 0 1 0 0 1 
+tx_status.sent_sync_patterns 0 1 0 0 0 1 
+tx_status.sent_client_data 1 0 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:1:traffic|rx_status
+Name rx_status.wait_client_data rx_status.sync_align rx_status.wait_pattern_B rx_status.wait_pattern_k1 rx_status.wait_pattern_k0 rx_status.idle 
+rx_status.idle 0 0 0 0 0 0 
+rx_status.wait_pattern_k0 0 0 0 0 1 1 
+rx_status.wait_pattern_k1 0 0 0 1 0 1 
+rx_status.wait_pattern_B 0 0 1 0 0 1 
+rx_status.sync_align 0 1 0 0 0 1 
+rx_status.wait_client_data 1 0 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:1:traffic|tx_status
+Name tx_status.sent_client_data tx_status.sent_sync_patterns tx_status.sent_pattern_B_wait_rx_obtain tx_status.sent_pattern_k1_wait_rx_obtain tx_status.sent_pattern_k0_wait_rx_obtain tx_status.idle 
+tx_status.idle 0 0 0 0 0 0 
+tx_status.sent_pattern_k0_wait_rx_obtain 0 0 0 0 1 1 
+tx_status.sent_pattern_k1_wait_rx_obtain 0 0 0 1 0 1 
+tx_status.sent_pattern_B_wait_rx_obtain 0 0 1 0 0 1 
+tx_status.sent_sync_patterns 0 1 0 0 0 1 
+tx_status.sent_client_data 1 0 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:0:traffic|rx_status
+Name rx_status.wait_client_data rx_status.sync_align rx_status.wait_pattern_B rx_status.wait_pattern_k1 rx_status.wait_pattern_k0 rx_status.idle 
+rx_status.idle 0 0 0 0 0 0 
+rx_status.wait_pattern_k0 0 0 0 0 1 1 
+rx_status.wait_pattern_k1 0 0 0 1 0 1 
+rx_status.wait_pattern_B 0 0 1 0 0 1 
+rx_status.sync_align 0 1 0 0 0 1 
+rx_status.wait_client_data 1 0 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:0:traffic|tx_status
+Name tx_status.sent_client_data tx_status.sent_sync_patterns tx_status.sent_pattern_B_wait_rx_obtain tx_status.sent_pattern_k1_wait_rx_obtain tx_status.sent_pattern_k0_wait_rx_obtain tx_status.idle 
+tx_status.idle 0 0 0 0 0 0 
+tx_status.sent_pattern_k0_wait_rx_obtain 0 0 0 0 1 1 
+tx_status.sent_pattern_k1_wait_rx_obtain 0 0 0 1 0 1 
+tx_status.sent_pattern_B_wait_rx_obtain 0 0 1 0 0 1 
+tx_status.sent_sync_patterns 0 1 0 0 0 1 
+tx_status.sent_client_data 1 0 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration|ret_state
+Name ret_state.TESTBUS_OFF_WR ret_state.TESTBUS_OFF_RD ret_state.TESTBUS_ON_WR ret_state.KICK_PAUSE ret_state.KICK_START_WR ret_state.CH_ADV ret_state.DPRIO_WAIT ret_state.CAL_RX_WR ret_state.CAL_RX_RD ret_state.CAL_PD_WR ret_state.OFFSETS_PDEN_WR ret_state.OFFSETS_PDEN_RD ret_state.IDLE 
+ret_state.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 
+ret_state.OFFSETS_PDEN_RD 0 0 0 0 0 0 0 0 0 0 0 1 1 
+ret_state.OFFSETS_PDEN_WR 0 0 0 0 0 0 0 0 0 0 1 0 1 
+ret_state.CAL_PD_WR 0 0 0 0 0 0 0 0 0 1 0 0 1 
+ret_state.CAL_RX_RD 0 0 0 0 0 0 0 0 1 0 0 0 1 
+ret_state.CAL_RX_WR 0 0 0 0 0 0 0 1 0 0 0 0 1 
+ret_state.DPRIO_WAIT 0 0 0 0 0 0 1 0 0 0 0 0 1 
+ret_state.CH_ADV 0 0 0 0 0 1 0 0 0 0 0 0 1 
+ret_state.KICK_START_WR 0 0 0 0 1 0 0 0 0 0 0 0 1 
+ret_state.KICK_PAUSE 0 0 0 1 0 0 0 0 0 0 0 0 1 
+ret_state.TESTBUS_ON_WR 0 0 1 0 0 0 0 0 0 0 0 0 1 
+ret_state.TESTBUS_OFF_RD 0 1 0 0 0 0 0 0 0 0 0 0 1 
+ret_state.TESTBUS_OFF_WR 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration|state
+Name state.TESTBUS_OFF_WR state.TESTBUS_OFF_RD state.TESTBUS_ON_WR state.TESTBUS_ON_RD state.KICK_DELAY_OC state.KICK_PAUSE state.KICK_START_WR state.DPRIO_WRITE state.DPRIO_READ state.KICK_START_RD state.CH_ADV state.KICK_SETWAIT state.TEST_INPUT state.SAMPLE_TB state.DPRIO_WAIT state.CAL_RX_WR state.CAL_RX_RD state.CAL_PD_WR state.OFFSETS_PDEN_WR state.OFFSETS_PDEN_RD state.TESTBUS_SET state.CH_WAIT state.IDLE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.CH_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.TESTBUS_SET 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.OFFSETS_PDEN_RD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.OFFSETS_PDEN_WR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.CAL_PD_WR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.CAL_RX_RD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.CAL_RX_WR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.DPRIO_WAIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.SAMPLE_TB 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.TEST_INPUT 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.KICK_SETWAIT 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.CH_ADV 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.KICK_START_RD 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.DPRIO_READ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.DPRIO_WRITE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.KICK_START_WR 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.KICK_PAUSE 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.KICK_DELAY_OC 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.TESTBUS_ON_RD 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.TESTBUS_ON_WR 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.TESTBUS_OFF_RD 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.TESTBUS_OFF_WR 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

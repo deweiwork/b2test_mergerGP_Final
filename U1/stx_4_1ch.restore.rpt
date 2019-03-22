@@ -1,0 +1,118 @@
+Restore Archived Project report for stx_4_1ch
+Mon Sep 24 14:36:31 2018
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Mon Sep 24 14:36:31 2018 ;
+; Revision Name                   ; stx_4_1ch                             ;
+; Top-level Entity Name           ; XCVR_top                              ;
+; Family                          ; Arria II GX                           ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '/media/b1409_dewei/WorkDisk/WorkSpace/BelleII/MyCode/altera/Arria2/arr_2_4ch_min_noGrouping_inclk/arr_2_4ch_in_clk_tmp_archive.qar' into the '/media/b1409_dewei/WorkDisk/WorkSpace/BelleII/MyCode/altera/Arria2/MergerV3_2_2540/U1' directory
+Info: Generated report 'stx_4_1ch.restore.rpt'
+
+
++-------------------------------------------------------------------------+
+; Files Restored                                                          ;
++-------------------------------------------------------------------------+
+; File Name                                                               ;
++-------------------------------------------------------------------------+
+; qar_info.json                                                           ;
+; XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.cmp                             ;
+; XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.ppf                             ;
+; XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.qip                             ;
+; XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.vhd                             ;
+; XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.cmp           ;
+; XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.qip           ;
+; XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.vhd           ;
+; arr_2_4ch_in_clk.qpf                                                    ;
+; clk_buffer/clk_buffer.qsys                                              ;
+; clk_buffer/clk_buffer.sopcinfo                                          ;
+; clk_buffer/clk_buffer/clk_buffer.bsf                                    ;
+; clk_buffer/clk_buffer/clk_buffer.cmp                                    ;
+; clk_buffer/clk_buffer/clk_buffer.csv                                    ;
+; clk_buffer/clk_buffer/clk_buffer.html                                   ;
+; clk_buffer/clk_buffer/clk_buffer.ppf                                    ;
+; clk_buffer/clk_buffer/clk_buffer.spd                                    ;
+; clk_buffer/clk_buffer/clk_buffer.xml                                    ;
+; clk_buffer/clk_buffer/clk_buffer_bb.v                                   ;
+; clk_buffer/clk_buffer/clk_buffer_generation.rpt                         ;
+; clk_buffer/clk_buffer/clk_buffer_inst.v                                 ;
+; clk_buffer/clk_buffer/clk_buffer_inst.vhd                               ;
+; clk_buffer/clk_buffer/greybox/clk_buffer.v                              ;
+; clk_buffer/clk_buffer/simulation/aldec/rivierapro_setup.tcl             ;
+; clk_buffer/clk_buffer/simulation/cadence/cds.lib                        ;
+; clk_buffer/clk_buffer/simulation/cadence/cds_libs/altclkctrl_0.cds.lib  ;
+; clk_buffer/clk_buffer/simulation/cadence/hdl.var                        ;
+; clk_buffer/clk_buffer/simulation/cadence/ncsim_setup.sh                 ;
+; clk_buffer/clk_buffer/simulation/clk_buffer.sip                         ;
+; clk_buffer/clk_buffer/simulation/clk_buffer.vhd                         ;
+; clk_buffer/clk_buffer/simulation/mentor/msim_setup.tcl                  ;
+; clk_buffer/clk_buffer/simulation/submodules/clk_buffer_altclkctrl_0.vhd ;
+; clk_buffer/clk_buffer/simulation/synopsys/vcsmx/synopsys_sim.setup      ;
+; clk_buffer/clk_buffer/simulation/synopsys/vcsmx/vcsmx_setup.sh          ;
+; clk_buffer/clk_buffer/synthesis/clk_buffer.debuginfo                    ;
+; clk_buffer/clk_buffer/synthesis/clk_buffer.qip                          ;
+; clk_buffer/clk_buffer/synthesis/clk_buffer.vhd                          ;
+; clk_buffer/clk_buffer/synthesis/submodules/clk_buffer_altclkctrl_0.v    ;
+; db/stp1_auto_stripped.stp                                               ;
+; source_code/DataStruct_param_def_header.vhd                             ;
+; source_code/XCVR_8B10B_interconnect.vhd                                 ;
+; source_code/XCVR_top.vhd                                                ;
+; source_code/clock_divider.vhd                                           ;
+; source_code/frame_check.vhd                                             ;
+; source_code/frame_gen.vhd                                               ;
+; source_code/lane_up_condition_checker.vhd                               ;
+; source_code/n_in_1_out_and_gate.vhd                                     ;
+; source_code/traffical.vhd                                               ;
+; stp1.stp                                                                ;
+; stx_4_1ch.qsf                                                           ;
+; stx_4_1ch_assignment_defaults.qdf                                       ;
++-------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

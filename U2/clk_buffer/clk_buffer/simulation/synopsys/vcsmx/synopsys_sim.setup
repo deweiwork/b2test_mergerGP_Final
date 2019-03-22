@@ -1,0 +1,14 @@
+
+WORK > DEFAULT
+DEFAULT:          ./libraries/work/            
+work:             ./libraries/work/            
+altclkctrl_0:     ./libraries/altclkctrl_0/    
+altera:           ./libraries/altera/          
+lpm:              ./libraries/lpm/             
+sgate:            ./libraries/sgate/           
+altera_mf:        ./libraries/altera_mf/       
+altera_lnsim:     ./libraries/altera_lnsim/    
+arriaii_hssi:     ./libraries/arriaii_hssi/    
+arriaii_pcie_hip: ./libraries/arriaii_pcie_hip/
+arriaii:          ./libraries/arriaii/         
+LIBRARY_SCAN = TRUE

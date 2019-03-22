@@ -1,0 +1,18 @@
+# system info clk_buffer on 2018.07.30.20:13:55
+system_info:
+name,value
+DEVICE,EP2AGX95EF29I3
+DEVICE_FAMILY,Arria II GX
+GENERATION_ID,1532952834
+#
+#
+# Files generated for clk_buffer on 2018.07.30.20:13:55
+files:
+filepath,kind,attributes,module,is_top
+simulation/clk_buffer.vhd,VHDL,,clk_buffer,true
+simulation/submodules/clk_buffer_altclkctrl_0.vhd,VHDL,,clk_buffer_altclkctrl_0,false
+#
+# Map from instance-path to kind of module
+instances:
+instancePath,module
+clk_buffer.altclkctrl_0,clk_buffer_altclkctrl_0

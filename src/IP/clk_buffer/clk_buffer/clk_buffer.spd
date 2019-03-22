@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/clk_buffer_altclkctrl_0.vhd"
+   type="VHDL"
+   library="altclkctrl_0" />
+ <file path="simulation/clk_buffer.vhd" type="VHDL" />
+ <topLevel name="clk_buffer" />
+ <deviceFamily name="arriaiigx" />
+</simPackage>

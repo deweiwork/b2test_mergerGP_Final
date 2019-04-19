@@ -25,6 +25,7 @@ Port (
     RX_freq_locked          : in  ser_data_men;
     XCVR_pll_locked         : in  std_logic;
 
+    RX_elastic_buf_overflow : in  std_logic;
     RX_sync_status          : in  ctrl_code_8B10B;
     RX_pattern_detected     : in  ctrl_code_8B10B;
     RX_errdetect            : in  ctrl_code_8B10B;
@@ -61,7 +62,7 @@ begin
     end generate err_signal_loop;
     RX_errdetect_r2 <= or_reduce(RX_errdetect_r);
     RX_disperr_r2   <= or_reduce(RX_disperr_r);
-    error_happen    <= RX_errdetect_r2 or RX_disperr_r2;
+    error_happen    <= RX_errdetect_r2 or RX_disperr_r2 or RX_elastic_buf_overflow;
 
     lane_up_FSM : process(INIT_CLK,Reset_n)
         variable power_on_cnt               : integer range 0 to power_on_wait_clks         := 0 ;

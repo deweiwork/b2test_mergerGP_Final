@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2019.04.19.16:51:34"
+ date="2019.04.19.17:30:07"
  outputDirectory="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U2/db/ip/clk_buffer/">
  <perimeter>
   <parameter
@@ -46,12 +46,12 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="clk_buffer:1.0:AUTO_DEVICE=EP2AGX95EF29I3,AUTO_DEVICE_FAMILY=Arria II GX,AUTO_DEVICE_SPEEDGRADE=3,AUTO_GENERATION_ID=1555663893,AUTO_UNIQUE_ID=(altclkctrl:18.1:CLOCK_TYPE=0,DEVICE_FAMILY=Arria II GX,ENA_REGISTER_MODE=1,GUI_USE_ENA=false,NUMBER_OF_CLOCKS=1,USE_GLITCH_FREE_SWITCH_OVER_IMPLEMENTATION=false)"
+   parameterizationKey="clk_buffer:1.0:AUTO_DEVICE=EP2AGX95EF29I3,AUTO_DEVICE_FAMILY=Arria II GX,AUTO_DEVICE_SPEEDGRADE=3,AUTO_GENERATION_ID=1555666207,AUTO_UNIQUE_ID=(altclkctrl:18.1:CLOCK_TYPE=0,DEVICE_FAMILY=Arria II GX,ENA_REGISTER_MODE=1,GUI_USE_ENA=false,NUMBER_OF_CLOCKS=1,USE_GLITCH_FREE_SWITCH_OVER_IMPLEMENTATION=false)"
    instancePathKey="clk_buffer"
    kind="clk_buffer"
    version="1.0"
    name="clk_buffer">
-  <parameter name="AUTO_GENERATION_ID" value="1555663893" />
+  <parameter name="AUTO_GENERATION_ID" value="1555666207" />
   <parameter name="AUTO_DEVICE" value="EP2AGX95EF29I3" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Arria II GX" />
   <parameter name="AUTO_UNIQUE_ID" value="" />

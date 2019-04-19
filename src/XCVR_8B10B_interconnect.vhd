@@ -127,6 +127,7 @@ architecture Top of XCVR_8B10B_interconnect is
     signal sync_buf_sync_done_ch_01         : std_logic;
     signal sync_buf_overflow_ch_23          : std_logic;
     signal sync_buf_sync_done_ch_23         : std_logic;
+    signal elastic_buf_overflow             : std_logic;
 
 begin
     --connect loopback_en
@@ -276,6 +277,7 @@ begin
         RX_freq_locked          => rx_freqlocked_ch,
         XCVR_pll_locked         => pll_locked,
 
+        RX_elastic_buf_overflow => elastic_buf_overflow,
         RX_sync_status          => rx_syncstatus_ch,
         RX_pattern_detected     => rx_patterndetect_ch,
         RX_errdetect            => rx_err_detec_ch,
@@ -324,7 +326,9 @@ begin
     elastic_buf_sync_done(2) <= sync_buf_sync_done_ch_23;
     elastic_buf_sync_done(3) <= sync_buf_sync_done_ch_23;
 
-	 generate_TX_BUFG_loop : for i in 0 to (num_of_xcvr_ch - 1) generate
+    elastic_buf_overflow <= sync_buf_overflow_ch_01 or sync_buf_overflow_ch_23;
+
+	generate_TX_BUFG_loop : for i in 0 to (num_of_xcvr_ch - 1) generate
         xcvr_tx_data_clk_buf_used_assert : if xcvr_tx_data_clk_buf_used = '1' generate
             gen_TX_BUFG : clk_buffer
                 port map

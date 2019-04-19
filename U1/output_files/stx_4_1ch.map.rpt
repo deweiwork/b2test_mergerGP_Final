@@ -1,5 +1,5 @@
 Analysis & Synthesis report for stx_4_1ch
-Fri Apr 19 16:52:22 2019
+Fri Apr 19 17:31:02 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -108,7 +108,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +-----------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status       ; Successful - Fri Apr 19 16:52:22 2019           ;
+; Analysis & Synthesis Status       ; Successful - Fri Apr 19 17:31:02 2019           ;
 ; Quartus Prime Version             ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                     ; stx_4_1ch                                       ;
 ; Top-level Entity Name             ; XCVR_TOP                                        ;
@@ -420,7 +420,7 @@ refer to the applicable agreement for further details.
 ;                |alt_cal_edge_detect:pd90_det|                                                                                           ; 1 (1)               ; 3 (3)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration|alt_cal_edge_detect:pd90_det                                                                                ; alt_cal_edge_detect                         ; work         ;
 ;                |lpm_mux:alt_cal_mux_gen.testbus_mux|                                                                                    ; 12 (0)              ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration|lpm_mux:alt_cal_mux_gen.testbus_mux                                                                         ; lpm_mux                                     ; work         ;
 ;                   |mux_snc:auto_generated|                                                                                              ; 12 (12)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration|lpm_mux:alt_cal_mux_gen.testbus_mux|mux_snc:auto_generated                                                  ; mux_snc                                     ; work         ;
-;       |ch_sync_buffer_2ch:ch_sync_buf_2ch_01|                                                                                           ; 45 (13)             ; 489 (9)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01                                                                                                                                                                                                                                  ; ch_sync_buffer_2ch                          ; work         ;
+;       |ch_sync_buffer_2ch:ch_sync_buf_2ch_01|                                                                                           ; 47 (15)             ; 489 (9)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01                                                                                                                                                                                                                                  ; ch_sync_buffer_2ch                          ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:0:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:0:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:1:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:1:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:10:ch_loop:0:shift_reg|                                                                     ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|D_FF_sync_buf:\shift_reg_gen_loop:10:ch_loop:0:shift_reg                                                                                                                                                                         ; D_FF_sync_buf                               ; work         ;
@@ -453,7 +453,7 @@ refer to the applicable agreement for further details.
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:9:ch_loop:1:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|D_FF_sync_buf:\shift_reg_gen_loop:9:ch_loop:1:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:0:Out_Mux|                                                                           ; 16 (16)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:0:Out_Mux                                                                                                                                                                               ; ch_sync_buf_out_mux                         ; work         ;
 ;          |ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:1:Out_Mux|                                                                           ; 16 (16)             ; 0 (0)                     ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:1:Out_Mux                                                                                                                                                                               ; ch_sync_buf_out_mux                         ; work         ;
-;       |ch_sync_buffer_2ch:ch_sync_buf_2ch_23|                                                                                           ; 47 (15)             ; 489 (9)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23                                                                                                                                                                                                                                  ; ch_sync_buffer_2ch                          ; work         ;
+;       |ch_sync_buffer_2ch:ch_sync_buf_2ch_23|                                                                                           ; 45 (13)             ; 489 (9)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23                                                                                                                                                                                                                                  ; ch_sync_buffer_2ch                          ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:0:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23|D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:0:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:1:shift_reg|                                                                      ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23|D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:1:shift_reg                                                                                                                                                                          ; D_FF_sync_buf                               ; work         ;
 ;          |D_FF_sync_buf:\shift_reg_gen_loop:10:ch_loop:0:shift_reg|                                                                     ; 0 (0)               ; 16 (16)                   ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |XCVR_TOP|XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23|D_FF_sync_buf:\shift_reg_gen_loop:10:ch_loop:0:shift_reg                                                                                                                                                                         ; D_FF_sync_buf                               ; work         ;
@@ -1560,9 +1560,9 @@ Encoding Type:  One-Hot
 ; Total registers                              ; 9129  ;
 ; Number of registers using Synchronous Clear  ; 818   ;
 ; Number of registers using Synchronous Load   ; 1225  ;
-; Number of registers using Asynchronous Clear ; 3886  ;
+; Number of registers using Asynchronous Clear ; 3888  ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 3279  ;
+; Number of registers using Clock Enable       ; 3277  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -2674,24 +2674,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------+-------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23"  ;
-+------------------------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port                         ; Type   ; Severity ; Details                                                                             ;
-+------------------------------+--------+----------+-------------------------------------------------------------------------------------+
-; ch_sync_buffer_overflow      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; ch_sync_buffer_directly_pass ; Input  ; Info     ; Stuck at GND                                                                        ;
-+------------------------------+--------+----------+-------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_23" ;
++------------------------------+-------+----------+-------------------------------------------------------------------------------------+
+; Port                         ; Type  ; Severity ; Details                                                                             ;
++------------------------------+-------+----------+-------------------------------------------------------------------------------------+
+; ch_sync_buffer_directly_pass ; Input ; Info     ; Stuck at GND                                                                        ;
++------------------------------+-------+----------+-------------------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01"  ;
-+------------------------------+--------+----------+-------------------------------------------------------------------------------------+
-; Port                         ; Type   ; Severity ; Details                                                                             ;
-+------------------------------+--------+----------+-------------------------------------------------------------------------------------+
-; ch_sync_buffer_overflow      ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; ch_sync_buffer_directly_pass ; Input  ; Info     ; Stuck at GND                                                                        ;
-+------------------------------+--------+----------+-------------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01" ;
++------------------------------+-------+----------+-------------------------------------------------------------------------------------+
+; Port                         ; Type  ; Severity ; Details                                                                             ;
++------------------------------+-------+----------+-------------------------------------------------------------------------------------+
+; ch_sync_buffer_directly_pass ; Input ; Info     ; Stuck at GND                                                                        ;
++------------------------------+-------+----------+-------------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------+
@@ -2767,9 +2765,9 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                             ; Count            ;
 +----------------------------------+------------------+
 ; arriaii_ff                       ; 2050             ;
-;     CLR                          ; 1176             ;
+;     CLR                          ; 1178             ;
 ;     CLR SCLR                     ; 64               ;
-;     ENA                          ; 306              ;
+;     ENA                          ; 304              ;
 ;     ENA CLR                      ; 72               ;
 ;     ENA CLR SCLR                 ; 104              ;
 ;     ENA SCLR                     ; 81               ;
@@ -2815,7 +2813,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:23     ;
+; Top            ; 00:00:22     ;
 +----------------+--------------+
 
 
@@ -3902,23 +3900,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
-    Info: Processing started: Fri Apr 19 16:51:09 2019
+    Info: Processing started: Fri Apr 19 17:29:51 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off arr_2_4ch_U1 -c stx_4_1ch
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12248): Elaborating Platform Designer system entity "clk_buffer.qsys"
-Info (12250): 2019.04.19.16:51:26 Progress: Loading clk_buffer/clk_buffer.qsys
-Info (12250): 2019.04.19.16:51:26 Progress: Reading input file
-Info (12250): 2019.04.19.16:51:27 Progress: Adding altclkctrl_0 [altclkctrl 18.0]
+Info (12250): 2019.04.19.17:30:08 Progress: Loading clk_buffer/clk_buffer.qsys
+Info (12250): 2019.04.19.17:30:09 Progress: Reading input file
+Info (12250): 2019.04.19.17:30:09 Progress: Adding altclkctrl_0 [altclkctrl 18.0]
 Warning (12251): Altclkctrl_0: Used altclkctrl 18.1 (instead of 18.0)
-Info (12250): 2019.04.19.16:51:27 Progress: Parameterizing module altclkctrl_0
-Info (12250): 2019.04.19.16:51:27 Progress: Building connections
-Info (12250): 2019.04.19.16:51:27 Progress: Parameterizing connections
-Info (12250): 2019.04.19.16:51:27 Progress: Validating
-Info (12250): 2019.04.19.16:51:28 Progress: Done reading input file
-Info (12250): 2019.04.19.16:51:28 : clk_buffer.altclkctrl_0: Targeting device family: Arria II GX.
-Info (12250): 2019.04.19.16:51:28 : clk_buffer.altclkctrl_0: Selecting AUTO allows the compiler to pick the best clock buffer to use, while other values restrict usage to only the given clock buffer.
-Info (12250): 2019.04.19.16:51:28 : clk_buffer.altclkctrl_0: The register mode of port 'ena' is unavailable while 'ena' port not added. 
+Info (12250): 2019.04.19.17:30:09 Progress: Parameterizing module altclkctrl_0
+Info (12250): 2019.04.19.17:30:09 Progress: Building connections
+Info (12250): 2019.04.19.17:30:09 Progress: Parameterizing connections
+Info (12250): 2019.04.19.17:30:09 Progress: Validating
+Info (12250): 2019.04.19.17:30:10 Progress: Done reading input file
+Info (12250): 2019.04.19.17:30:10 : clk_buffer.altclkctrl_0: Targeting device family: Arria II GX.
+Info (12250): 2019.04.19.17:30:10 : clk_buffer.altclkctrl_0: Selecting AUTO allows the compiler to pick the best clock buffer to use, while other values restrict usage to only the given clock buffer.
+Info (12250): 2019.04.19.17:30:10 : clk_buffer.altclkctrl_0: The register mode of port 'ena' is unavailable while 'ena' port not added. 
 Info (12250): Clk_buffer: Generating clk_buffer "clk_buffer" for QUARTUS_SYNTH
 Info (12250): Altclkctrl_0: Generating top-level entity clk_buffer_altclkctrl_0.
 Info (12250): Altclkctrl_0: "clk_buffer" instantiated altclkctrl "altclkctrl_0"
@@ -3937,7 +3935,7 @@ Info (12021): Found 2 design units, including 1 entities, in source file /home/d
     Info (12022): Found design unit 1: traffic-top File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/traffic.vhd Line: 49
     Info (12023): Found entity 1: traffic File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/traffic.vhd Line: 8
 Info (12021): Found 2 design units, including 1 entities, in source file /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/reset_logic.vhd
-    Info (12022): Found design unit 1: reset_logic-Behavioral File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/reset_logic.vhd Line: 36
+    Info (12022): Found design unit 1: reset_logic-Behavioral File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/reset_logic.vhd Line: 37
     Info (12023): Found entity 1: reset_logic File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/reset_logic.vhd Line: 10
 Info (12021): Found 6 design units, including 3 entities, in source file /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.vhd
     Info (12022): Found design unit 1: XCVR_Reconfig_3125_4ch_alt_dprio_kuj-RTL File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.vhd Line: 70
@@ -3986,14 +3984,12 @@ Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "rx_Para_data_bank" into its bus
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "error_cnt_ch_bank" into its bus
 Info (12128): Elaborating entity "XCVR_8B10B_interconnect" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_top.vhd Line: 94
-Warning (10036): Verilog HDL or VHDL warning at XCVR_8B10B_interconnect.vhd(126): object "sync_buf_overflow_ch_01" assigned a value but never read File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 126
-Warning (10036): Verilog HDL or VHDL warning at XCVR_8B10B_interconnect.vhd(128): object "sync_buf_overflow_ch_23" assigned a value but never read File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 128
 Warning (10873): Using initial value X (don't care) for net "RX_para_external_ch" at XCVR_8B10B_interconnect.vhd(23) File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 23
 Warning (10873): Using initial value X (don't care) for net "TX_para_external_clk_ch" at XCVR_8B10B_interconnect.vhd(24) File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 24
 Warning (10873): Using initial value X (don't care) for net "RX_para_external_clk_ch" at XCVR_8B10B_interconnect.vhd(25) File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 25
 Warning (10873): Using initial value X (don't care) for net "tx_traffic_ready_ext_ch" at XCVR_8B10B_interconnect.vhd(26) File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 26
 Warning (10873): Using initial value X (don't care) for net "rx_traffic_ready_ext_ch" at XCVR_8B10B_interconnect.vhd(27) File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 27
-Info (12128): Elaborating entity "XCVR_3125_4ch" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_3125_4ch:XCVR" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 172
+Info (12128): Elaborating entity "XCVR_3125_4ch" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_3125_4ch:XCVR" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 173
 Info (12128): Elaborating entity "XCVR_3125_4ch_alt4gxb" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_3125_4ch:XCVR|XCVR_3125_4ch_alt4gxb:XCVR_3125_4ch_alt4gxb_component" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.vhd Line: 3571
 Warning (10036): Verilog HDL or VHDL warning at XCVR_3125_4ch.vhd(197): object "wire_receive_pcs0_signaldetect" assigned a value but never read File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.vhd Line: 197
 Warning (10036): Verilog HDL or VHDL warning at XCVR_3125_4ch.vhd(214): object "wire_receive_pcs1_signaldetect" assigned a value but never read File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.vhd Line: 214
@@ -4003,7 +3999,7 @@ Warning (10036): Verilog HDL or VHDL warning at XCVR_3125_4ch.vhd(290): object "
 Warning (10036): Verilog HDL or VHDL warning at XCVR_3125_4ch.vhd(301): object "wire_transmit_pcs1_forceelecidleout" assigned a value but never read File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.vhd Line: 301
 Warning (10036): Verilog HDL or VHDL warning at XCVR_3125_4ch.vhd(312): object "wire_transmit_pcs2_forceelecidleout" assigned a value but never read File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.vhd Line: 312
 Warning (10036): Verilog HDL or VHDL warning at XCVR_3125_4ch.vhd(323): object "wire_transmit_pcs3_forceelecidleout" assigned a value but never read File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_3125_4ch/XCVR_3125_4ch.vhd Line: 323
-Info (12128): Elaborating entity "XCVR_Reconfig_3125_4ch" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 201
+Info (12128): Elaborating entity "XCVR_Reconfig_3125_4ch" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 202
 Info (12128): Elaborating entity "XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.vhd Line: 1466
 Info (12128): Elaborating entity "alt_cal" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.vhd Line: 1369
 Info (12130): Elaborated megafunction instantiation "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|alt_cal:calibration" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/XCVR_module/XCVR_Reconfig_3125_4ch/XCVR_Reconfig_3125_4ch.vhd Line: 1369
@@ -4079,16 +4075,16 @@ Info (12133): Instantiated megafunction "XCVR_8B10B_interconnect:\Connect_XVCR_M
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_8kg.tdf
     Info (12023): Found entity 1: decode_8kg File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U1/db/decode_8kg.tdf Line: 22
 Info (12128): Elaborating entity "decode_8kg" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|XCVR_Reconfig_3125_4ch:XCVR_reconfig|XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm:XCVR_Reconfig_3125_4ch_alt2gxb_reconfig_vfm_component|XCVR_Reconfig_3125_4ch_alt_dprio_kuj:dprio|lpm_decode:state_mc_decode|decode_8kg:auto_generated" File: /opt/intelFPGA/18.1/quartus/libraries/megafunctions/lpm_decode.tdf Line: 76
-Info (12128): Elaborating entity "FRAME_GEN" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|FRAME_GEN:\Data_gen_loop:0:judg_if_data_is_internal:Data_gen" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 211
+Info (12128): Elaborating entity "FRAME_GEN" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|FRAME_GEN:\Data_gen_loop:0:judg_if_data_is_internal:Data_gen" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 212
 Warning (10037): Verilog HDL or VHDL warning at frame_gen.vhd(30): conditional expression evaluates to a constant File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/frame_gen.vhd Line: 30
-Info (12128): Elaborating entity "FRAME_CHECK" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|FRAME_CHECK:\Data_check_loop:0:judg_if_data_is_internal:Data_check" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 225
-Info (12128): Elaborating entity "traffic" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:0:traffic" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 244
-Info (12128): Elaborating entity "reset_logic" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|reset_logic:rst_logic" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 267
-Info (12128): Elaborating entity "ch_sync_buffer_2ch" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 285
+Info (12128): Elaborating entity "FRAME_CHECK" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|FRAME_CHECK:\Data_check_loop:0:judg_if_data_is_internal:Data_check" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 226
+Info (12128): Elaborating entity "traffic" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|traffic:\generate_traffic_loop:0:traffic" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 245
+Info (12128): Elaborating entity "reset_logic" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|reset_logic:rst_logic" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 268
+Info (12128): Elaborating entity "ch_sync_buffer_2ch" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 287
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "sync_buf_ch" into its bus
 Info (12128): Elaborating entity "D_FF_sync_buf" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|D_FF_sync_buf:\shift_reg_gen_loop:0:ch_loop:0:shift_reg" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/ch_sync_buf_2ch/ch_sync_buf_2ch.vhd Line: 64
-Info (12128): Elaborating entity "ch_sync_buf_out_mux" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:0:Out_Mux" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/ch_sync_buf_2ch/ch_sync_buf_2ch.vhd Line: 116
-Info (12128): Elaborating entity "clk_buffer" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_TX_BUFG_loop:0:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 329
+Info (12128): Elaborating entity "ch_sync_buf_out_mux" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer_2ch:ch_sync_buf_2ch_01|ch_sync_buf_out_mux:\Out_mux_ch_gen_loop:0:Out_Mux" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/ch_sync_buf_2ch/ch_sync_buf_2ch.vhd Line: 118
+Info (12128): Elaborating entity "clk_buffer" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_TX_BUFG_loop:0:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/XCVR_8B10B_interconnect.vhd Line: 333
 Info (12128): Elaborating entity "clk_buffer_altclkctrl_0" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_TX_BUFG_loop:0:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG|clk_buffer_altclkctrl_0:altclkctrl_0" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U1/db/ip/clk_buffer/clk_buffer.v Line: 14
 Info (12128): Elaborating entity "clk_buffer_altclkctrl_0_sub" for hierarchy "XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_TX_BUFG_loop:0:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG|clk_buffer_altclkctrl_0:altclkctrl_0|clk_buffer_altclkctrl_0_sub:clk_buffer_altclkctrl_0_sub_component" File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U1/db/ip/clk_buffer/submodules/clk_buffer_altclkctrl_0.v Line: 108
 Warning (10036): Verilog HDL or VHDL warning at clk_buffer_altclkctrl_0.v(46): object "clkselect" assigned a value but never read File: /home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U1/db/ip/clk_buffer/submodules/clk_buffer_altclkctrl_0.v Line: 46
@@ -4138,7 +4134,7 @@ Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "TX"
 Info (12033): Analysis and Synthesis generated Signal Tap or debug node instance "init"
 Info (11170): Starting IP generation for the debug fabric: alt_sld_fab.
-Info (11172): 2019.04.19.16:51:44 Progress: Loading sldde52b15d/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2019.04.19.17:30:26 Progress: Loading sldde52b15d/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -4329,10 +4325,10 @@ Info (21057): Implemented 11149 device resources after synthesis - the final res
     Info (21059): Implemented 153 output pins
     Info (21061): Implemented 10449 logic cells
     Info (21064): Implemented 436 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 174 warnings
-    Info: Peak virtual memory: 1276 megabytes
-    Info: Processing ended: Fri Apr 19 16:52:22 2019
-    Info: Elapsed time: 00:01:13
-    Info: Total CPU time (on all processors): 00:02:05
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 172 warnings
+    Info: Peak virtual memory: 1274 megabytes
+    Info: Processing ended: Fri Apr 19 17:31:02 2019
+    Info: Elapsed time: 00:01:11
+    Info: Total CPU time (on all processors): 00:02:04
 
 

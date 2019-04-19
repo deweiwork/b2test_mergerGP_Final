@@ -79,6 +79,8 @@ begin
             out_mux_sel_ch  <= (others => ch_sync_buffer_Length_power - 1);    
             ch_sync_buffer_sync_done    <= '0';
             ch_sync_buffer_overflow     <= '0';
+            ch_sync_buffer_sync_done_r  <= '0';
+            ch_sync_buffer_overflow_r   <= '0';
 
         elsif (rising_edge(CLK)) then
             ch_sync_buffer_sync_done <= ch_sync_buffer_sync_done_r;
@@ -104,7 +106,7 @@ begin
                     for i in 0 to (grouped_ch-1) loop
                         out_mux_sel_ch(i) <= cnt_ch(i) -1;
                     end loop;
-                    ch_sync_buffer_sync_done_r <= '1';
+                        ch_sync_buffer_sync_done_r <= '1';
 
                 when others =>        
             

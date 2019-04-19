@@ -3807,6 +3807,7 @@ RX_freq_locked[1] => WideAnd0.IN1
 RX_freq_locked[2] => WideAnd0.IN2
 RX_freq_locked[3] => WideAnd0.IN3
 XCVR_pll_locked => XCVR_pll_locked_r.DATAIN
+RX_elastic_buf_overflow => error_happen.IN1
 RX_sync_status[0][0] => ~NO_FANOUT~
 RX_sync_status[0][1] => ~NO_FANOUT~
 RX_sync_status[1][0] => ~NO_FANOUT~

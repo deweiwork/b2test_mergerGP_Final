@@ -4,9 +4,9 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2AGX95EF29) Path("/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/test3/Merger_GP/U1/output_files/") File("stx_4_1ch.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2AGX95EF29) Path("/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U1/output_files/") File("stx_4_1ch.sof") MfrSpec(OpMask(1));
 	P ActionCode(Cfg)
-		Device PartName(EP2AGX95EF29) Path("/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/test3/Merger_GP/U2/output_files/") File("stx_4_1ch.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2AGX95EF29) Path("/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U2/output_files/") File("stx_4_1ch.sof") MfrSpec(OpMask(1));
 	P ActionCode(Ign)
 		Device PartName(EPM1270) MfrSpec(OpMask(0));
 

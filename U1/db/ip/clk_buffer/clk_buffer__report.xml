@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <deploy
- date="2019.03.22.19:47:18"
- outputDirectory="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/test3/Merger_GP/U1/db/ip/clk_buffer/">
+ date="2019.04.19.16:51:29"
+ outputDirectory="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U1/db/ip/clk_buffer/">
  <perimeter>
   <parameter
      name="AUTO_GENERATION_ID"
@@ -46,30 +46,30 @@
  </perimeter>
  <entity
    path=""
-   parameterizationKey="clk_buffer:1.0:AUTO_DEVICE=EP2AGX95EF29I3,AUTO_DEVICE_FAMILY=Arria II GX,AUTO_DEVICE_SPEEDGRADE=3,AUTO_GENERATION_ID=1553255237,AUTO_UNIQUE_ID=(altclkctrl:18.1:CLOCK_TYPE=0,DEVICE_FAMILY=Arria II GX,ENA_REGISTER_MODE=1,GUI_USE_ENA=false,NUMBER_OF_CLOCKS=1,USE_GLITCH_FREE_SWITCH_OVER_IMPLEMENTATION=false)"
+   parameterizationKey="clk_buffer:1.0:AUTO_DEVICE=EP2AGX95EF29I3,AUTO_DEVICE_FAMILY=Arria II GX,AUTO_DEVICE_SPEEDGRADE=3,AUTO_GENERATION_ID=1555663888,AUTO_UNIQUE_ID=(altclkctrl:18.1:CLOCK_TYPE=0,DEVICE_FAMILY=Arria II GX,ENA_REGISTER_MODE=1,GUI_USE_ENA=false,NUMBER_OF_CLOCKS=1,USE_GLITCH_FREE_SWITCH_OVER_IMPLEMENTATION=false)"
    instancePathKey="clk_buffer"
    kind="clk_buffer"
    version="1.0"
    name="clk_buffer">
-  <parameter name="AUTO_GENERATION_ID" value="1553255237" />
+  <parameter name="AUTO_GENERATION_ID" value="1555663888" />
   <parameter name="AUTO_DEVICE" value="EP2AGX95EF29I3" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Arria II GX" />
   <parameter name="AUTO_UNIQUE_ID" value="" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="3" />
   <generatedFiles>
    <file
-       path="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/test3/Merger_GP/U1/db/ip/clk_buffer/clk_buffer.v"
+       path="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U1/db/ip/clk_buffer/clk_buffer.v"
        type="VERILOG" />
   </generatedFiles>
   <childGeneratedFiles>
    <file
-       path="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/test3/Merger_GP/U1/db/ip/clk_buffer/submodules/clk_buffer_altclkctrl_0.v"
+       path="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U1/db/ip/clk_buffer/submodules/clk_buffer_altclkctrl_0.v"
        type="VERILOG"
        attributes="" />
   </childGeneratedFiles>
   <sourceFiles>
    <file
-       path="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/test3/Merger_GP/src/IP/clk_buffer/clk_buffer.qsys" />
+       path="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/src/IP/clk_buffer/clk_buffer.qsys" />
   </sourceFiles>
   <childSourceFiles>
    <file
@@ -111,7 +111,7 @@
   <parameter name="CLOCK_TYPE" value="0" />
   <generatedFiles>
    <file
-       path="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/test3/Merger_GP/U1/db/ip/clk_buffer/submodules/clk_buffer_altclkctrl_0.v"
+       path="/home/dewei/WorkSpace/BelleII/MyCode/altera/Arria2/mergerGP_Final/U1/db/ip/clk_buffer/submodules/clk_buffer_altclkctrl_0.v"
        type="VERILOG"
        attributes="" />
   </generatedFiles>

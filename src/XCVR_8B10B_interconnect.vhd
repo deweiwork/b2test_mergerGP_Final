@@ -101,7 +101,7 @@ architecture Top of XCVR_8B10B_interconnect is
     signal reconfig_from_gxb        : std_logic_vector ((17 - 1) downto 0) := (others => '0');
     signal reconfig_to_gxb          : std_logic_vector ((4 - 1) downto 0) := (others => '0');
     --Xcvr
-    signal XCVR_TxRx_rst            : ser_data_men := (others =>'0');
+    signal XCVR_TxRx_rst            : std_logic;--ser_data_men := (others =>'0');
 
     signal rx_enapatternalign       : std_logic;
 
@@ -178,13 +178,13 @@ begin
             rx_coreclk		    => rx_clk_buf_out,
             rx_cruclk		    => (others => XCVR_Ref_Clock),
             rx_datain		    => RX_ser,
-            rx_digitalreset		=> XCVR_TxRx_rst,
+            rx_digitalreset		=> (others =>XCVR_TxRx_rst),
             rx_enapatternalign	=> (others => rx_enapatternalign),
             rx_seriallpbken		=> internal_loopback_en_ch,
             tx_coreclk		    => tx_clk_buf_out,
             tx_ctrlenable		=> tx_data_k_toXCVR,
             tx_datain		    => xcvr_tx_Para_data_to_XCVR,
-            tx_digitalreset		=> XCVR_TxRx_rst,
+            tx_digitalreset		=> (others =>XCVR_TxRx_rst),
             pll_locked		    => pll_locked_from_XCVR,
             reconfig_fromgxb	=> reconfig_from_gxb,
             rx_clkout		    => XCVR_Rx_clk_out_ch,

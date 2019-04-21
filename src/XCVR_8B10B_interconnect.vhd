@@ -296,7 +296,7 @@ begin
         ch_sync_buffer_sync_done            => sync_buf_sync_done_ch_01,
         ch_sync_buffer_overflow             => sync_buf_overflow_ch_01,
 
-        sync_en                             => elastic_can_start_sync(0) and elastic_can_start_sync(3),
+        sync_en                             => elastic_can_start_sync(0) and elastic_can_start_sync(1),
 
         ch_sync_buffer_directly_pass        => not(grouping_enable),
         
@@ -314,7 +314,7 @@ begin
         ch_sync_buffer_sync_done            => sync_buf_sync_done_ch_23,
         ch_sync_buffer_overflow             => sync_buf_overflow_ch_23,
 
-        sync_en                             => elastic_can_start_sync(2) and elastic_can_start_sync(1),
+        sync_en                             => elastic_can_start_sync(2) and elastic_can_start_sync(3),
 
         ch_sync_buffer_directly_pass        => not(grouping_enable),
         

@@ -252,7 +252,7 @@ begin
                 rx_traffic_ready         => RX_traffic_ready_ch(i),
 
                 rx_elastic_buf_sync_done => elastic_buf_sync_done(i),
-                gp_sync_can_start        => elastic_can_start_sync(1),
+                gp_sync_can_start        => elastic_can_start_sync(i),
 
                 Tx_K                     => tx_data_k_ch(i),
                 Rx_K                     => rx_data_k_ch(i),

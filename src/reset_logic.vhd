@@ -74,7 +74,7 @@ begin
             lane_up_status <= power_on ;
 
             lane_up                  <= '0';
-            XCVR_rst_out             <= '0';--(others => '0');
+            XCVR_rst_out             <= '1';--(others => '1');
             align_en                 <= '0';
 
             power_on_cnt    := 0;

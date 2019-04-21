@@ -79,8 +79,6 @@ begin
             out_mux_sel_ch  <= (others => ch_sync_buffer_Length_power - 1);    
             ch_sync_buffer_sync_done    <= '0';
             ch_sync_buffer_overflow     <= '0';
-            ch_sync_buffer_sync_done_r  <= '0';
-            ch_sync_buffer_overflow_r   <= '0';
 
         elsif (rising_edge(CLK)) then
             ch_sync_buffer_sync_done <= ch_sync_buffer_sync_done_r;
@@ -94,6 +92,7 @@ begin
                         elsif (sync_buf_ch(i)(0) = sync_pattern) then
                             if (cnt_ch(i) = (2**ch_sync_buffer_Length_power -2)) then
                                 ch_sync_buffer_overflow_r   <= '1';
+                                sync_status <= sync_start;
                             else
                                 cnt_ch(i)   <= cnt_ch(i)+1;
                                 ch_sync_buffer_overflow_r   <= '0';
@@ -107,7 +106,7 @@ begin
                         out_mux_sel_ch(i) <= cnt_ch(i) -1;
                     end loop;
                         ch_sync_buffer_sync_done_r <= '1';
-
+						ch_sync_buffer_overflow_r   <= '0';
                 when others =>        
             
             end case;

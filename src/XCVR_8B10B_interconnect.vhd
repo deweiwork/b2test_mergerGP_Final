@@ -123,6 +123,7 @@ architecture Top of XCVR_8B10B_interconnect is
     signal rx_Para_data_from_sync_buf_ch    : para_data_men ;
     signal rx_Para_data_to_sync_buf_ch      : para_data_men ;
     signal elastic_buf_sync_done            : ser_data_men := (others =>'0');
+    signal elastic_can_start_sync           : ser_data_men := (others =>'0');
     signal sync_buf_overflow_ch_01          : std_logic;
     signal sync_buf_sync_done_ch_01         : std_logic;
     signal sync_buf_overflow_ch_23          : std_logic;
@@ -251,7 +252,7 @@ begin
                 rx_traffic_ready         => RX_traffic_ready_ch(i),
 
                 rx_elastic_buf_sync_done => elastic_buf_sync_done(i),
-                gp_sync_can_start        => open,
+                gp_sync_can_start        => elastic_can_start_sync(1),
 
                 Tx_K                     => tx_data_k_ch(i),
                 Rx_K                     => rx_data_k_ch(i),
@@ -295,7 +296,7 @@ begin
         ch_sync_buffer_sync_done            => sync_buf_sync_done_ch_01,
         ch_sync_buffer_overflow             => sync_buf_overflow_ch_01,
 
-        sync_en                             => lane_up,
+        sync_en                             => elastic_can_start_sync(0) and elastic_can_start_sync(3),
 
         ch_sync_buffer_directly_pass        => not(grouping_enable),
         
@@ -313,7 +314,7 @@ begin
         ch_sync_buffer_sync_done            => sync_buf_sync_done_ch_23,
         ch_sync_buffer_overflow             => sync_buf_overflow_ch_23,
 
-        sync_en                             => lane_up,
+        sync_en                             => elastic_can_start_sync(2) and elastic_can_start_sync(1),
 
         ch_sync_buffer_directly_pass        => not(grouping_enable),
         

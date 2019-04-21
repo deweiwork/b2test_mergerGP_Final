@@ -76,21 +76,21 @@ CHIP  "stx_4_1ch"  ASSIGNED TO AN: EP2AGX95EF29I3
 
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
 -------------------------------------------------------------------------------------------------------------
-rx_Para_data_bank[0][2][3]   : A2        : output : 2.5 V             :         : 6A        : N              
+tx_Para_data_bank[0][2][4]   : A2        : input  : 2.5 V             :         : 6A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : A3        :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A4        :        :                   :         : 7A        :                
+tx_Para_data_bank[0][1][7]   : A4        : input  : 2.5 V             :         : 7A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : A5        :        :                   :         : 7A        :                
-error_cnt_ch_bank[0][3][14]  : A6        : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][2]   : A7        : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][1]   : A8        : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][0]   : A9        : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][6]   : A10       : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][5]   : A11       : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][11]  : A12       : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][2][6]   : A13       : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][9]   : A14       : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][13]  : A15       : output : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][2][1]   : A16       : input  : 2.5 V             :         : 8A        : N              
+error_cnt_ch_bank[0][3][8]   : A6        : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][6]   : A7        : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][11]  : A8        : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][15]  : A9        : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][5]   : A10       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][2]   : A11       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][13]  : A12       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][12]  : A13       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][4]   : A14       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][1]   : A15       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A16       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A17       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A18       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A19       :        :                   :         : 8A        :                
@@ -102,25 +102,25 @@ GXB_GND*                     : A24       :        :                   :         
 GND                          : A25       : gnd    :                   :         :           :                
 GXB_NC                       : A26       :        :                   :         : QL2       :                
 GND                          : A27       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA1       :        :                   :         : 5A        :                
+ext_tx_para_data_clk_bank[0][1] : AA1       : output : 2.5 V             :         : 5A        : N              
 GND                          : AA2       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA3       :        :                   :         : 5A        :                
+ext_rx_para_data_clk_bank[0][3] : AA3       : output : 2.5 V             :         : 5A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA4       :        :                   :         : 5A        :                
 GND                          : AA5       : gnd    :                   :         :           :                
-rx_Para_data_bank[0][3][14]  : AA6       : output : 2.5 V             :         : 5A        : N              
+tx_Para_data_bank[0][1][11]  : AA6       : input  : 2.5 V             :         : 5A        : N              
 VCCD_PLL_3                   : AA7       : power  :                   : 0.9V    :           :                
 GND                          : AA8       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA9       :        :                   :         : 4A        :                
-rx_Para_data_bank[0][2][2]   : AA10      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA10      :        :                   :         : 4A        :                
 GND                          : AA11      : gnd    :                   :         :           :                
 VCCPD4A                      : AA12      : power  :                   : 2.5V    : 4A        :                
 VCCPD4A                      : AA13      : power  :                   : 2.5V    : 4A        :                
 GND                          : AA14      : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AA15      :        :                   :         : 3A        :                
+tx_Para_data_bank[0][1][4]   : AA15      : input  : 2.5 V             :         : 3A        : N              
 RST_N_in                     : AA16      : input  : 3.3-V LVCMOS      :         : 3A        : Y              
 GND                          : AA17      : gnd    :                   :         :           :                
 VCCPD3A                      : AA18      : power  :                   : 2.5V    : 3A        :                
-rx_Para_data_bank[0][0][6]   : AA19      : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA19      :        :                   :         : 3A        :                
 GND                          : AA20      : gnd    :                   :         :           :                
 VCCD_PLL_4                   : AA21      : power  :                   : 0.9V    :           :                
 nCE                          : AA22      :        :                   :         : 3C        :                
@@ -131,24 +131,24 @@ GND                          : AA26      : gnd    :                   :         
 GXB_GND*                     : AA27      :        :                   :         : QL0       :                
 GXB_GND*                     : AA28      :        :                   :         : QL0       :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB1       :        :                   :         : 5A        :                
-rx_Para_data_bank[0][0][2]   : AB2       : output : 2.5 V             :         : 5A        : N              
-tx_Para_data_bank[0][0][1]   : AB3       : input  : 2.5 V             :         : 5A        : N              
+tx_Para_data_bank[0][0][2]   : AB2       : input  : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB3       :        :                   :         : 5A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB4       :        :                   :         : 5A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB5       :        :                   :         : 5A        :                
-tx_Para_data_bank[0][2][7]   : AB6       : input  : 2.5 V             :         : 5A        : N              
-tx_Para_data_bank[0][2][15]  : AB7       : input  : 2.5 V             :         : 5A        : N              
-tx_Para_data_bank[0][1][0]   : AB8       : input  : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][0][8]   : AB9       : output : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][1][9]   : AB10      : output : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][0][0]   : AB11      : output : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][0][11]  : AB6       : input  : 2.5 V             :         : 5A        : N              
+tx_Para_data_bank[0][2][6]   : AB7       : input  : 2.5 V             :         : 5A        : N              
+tx_Para_data_bank[0][3][12]  : AB8       : input  : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][0][1]   : AB9       : input  : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][1][8]   : AB10      : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB11      :        :                   :         : 4A        :                
 VREFB4AN0                    : AB12      : power  :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB13      :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB14      :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AB15      :        :                   :         : 3A        :                
+rx_Para_data_bank[0][3][13]  : AB13      : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][1]   : AB14      : output : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][0][14]  : AB15      : input  : 2.5 V             :         : 3A        : N              
 ~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : AB16      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][6]   : AB17      : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB17      :        :                   :         : 3A        :                
 VCCPD3A                      : AB18      : power  :                   : 2.5V    : 3A        :                
-rx_Para_data_bank[0][1][7]   : AB19      : output : 2.5 V             :         : 3A        : N              
+tx_Para_data_bank[0][2][0]   : AB19      : input  : 2.5 V             :         : 3A        : N              
 VCCA_PLL_4                   : AB20      : power  :                   : 2.5V    :           :                
 GND                          : AB21      : gnd    :                   :         :           :                
 nIO_PULLUP                   : AB22      :        :                   :         : 3C        :                
@@ -158,110 +158,110 @@ GXB_NC                       : AB25      :        :                   :         
 GXB_NC                       : AB26      :        :                   :         : QL0       :                
 GND                          : AB27      : gnd    :                   :         :           :                
 GND                          : AB28      : gnd    :                   :         :           :                
-tx_Para_data_bank[0][3][9]   : AC1       : input  : 2.5 V             :         : 5A        : N              
-rx_Para_data_bank[0][2][5]   : AC2       : output : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC1       :        :                   :         : 5A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC2       :        :                   :         : 5A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC3       :        :                   :         : 5A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC4       :        :                   :         : 5A        :                
-tx_Para_data_bank[0][3][8]   : AC5       : input  : 2.5 V             :         : 5A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AC6       :        :                   :         : 4A        :                
+rx_Para_data_bank[0][2][8]   : AC5       : output : 2.5 V             :         : 5A        : N              
+tx_Para_data_bank[0][0][3]   : AC6       : input  : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC7       :        :                   :         : 4A        :                
-rx_Para_data_bank[0][2][4]   : AC8       : output : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][0][8]   : AC8       : input  : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC9       :        :                   :         : 4A        :                
-tx_Para_data_bank[0][2][5]   : AC10      : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC10      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AC11      :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AC12      :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AC13      :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AC14      :        :                   :         : 4A        :                
-error_cnt_ch_bank[0][0][4]   : AC15      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][11]  : AC16      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][0]   : AC17      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][8]   : AC18      : output : 2.5 V             :         : 3A        : N              
-tx_Para_data_bank[0][0][5]   : AC19      : input  : 2.5 V             :         : 3A        : N              
+rx_Para_data_bank[0][0][15]  : AC12      : output : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][2][14]  : AC13      : input  : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][3]   : AC14      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC15      :        :                   :         : 3A        :                
+error_cnt_ch_bank[0][0][2]   : AC16      : output : 2.5 V             :         : 3A        : N              
+rx_Para_data_bank[0][1][1]   : AC17      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][15]  : AC18      : output : 2.5 V             :         : 3A        : N              
+rx_Para_data_bank[0][0][10]  : AC19      : output : 2.5 V             :         : 3A        : N              
 VCCIO3C                      : AC20      : power  :                   : 2.5V    : 3C        :                
-error_cnt_ch_bank[0][1][3]   : AC21      : output : 2.5 V             :         : 3A        : N              
-tx_Para_data_bank[0][2][3]   : AC22      : input  : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][9]   : AC23      : output : 2.5 V             :         : 3A        : N              
-tx_Para_data_bank[0][0][0]   : AC24      : input  : 2.5 V             :         : 3A        : N              
+rx_Para_data_bank[0][1][3]   : AC21      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][6]   : AC22      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][10]  : AC23      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][3]   : AC24      : output : 2.5 V             :         : 3A        : N              
 GND                          : AC25      : gnd    :                   :         :           :                
 GND                          : AC26      : gnd    :                   :         :           :                
 GXB_GND*                     : AC27      :        :                   :         : QL0       :                
 GXB_GND*                     : AC28      :        :                   :         : QL0       :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AD1       :        :                   :         : 5A        :                
+tx_Para_data_bank[0][3][10]  : AD1       : input  : 2.5 V             :         : 5A        : N              
 GND                          : AD2       : gnd    :                   :         :           :                
-tx_Para_data_bank[0][3][11]  : AD3       : input  : 2.5 V             :         : 5A        : N              
-rx_Para_data_bank[0][0][1]   : AD4       : output : 2.5 V             :         : 5A        : N              
+tx_Para_data_bank[0][3][0]   : AD3       : input  : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][3][8]   : AD4       : output : 2.5 V             :         : 5A        : N              
 GND                          : AD5       : gnd    :                   :         :           :                
-rx_Para_data_bank[0][1][11]  : AD6       : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD6       :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AD7       :        :                   :         : 4A        :                
 GND                          : AD8       : gnd    :                   :         :           :                
-tx_Para_data_bank[0][2][2]   : AD9       : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD9       :        :                   :         : 4A        :                
 VCCIO4A                      : AD10      : power  :                   : 2.5V    : 4A        :                
 GND                          : AD11      : gnd    :                   :         :           :                
-rx_Para_data_bank[0][3][2]   : AD12      : output : 2.5 V             :         : 4A        : N              
+rx_Para_data_bank[0][1][8]   : AD12      : output : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : AD13      : power  :                   : 2.5V    : 4A        :                
 GND                          : AD14      : gnd    :                   :         :           :                
-error_cnt_ch_bank[0][0][14]  : AD15      : output : 2.5 V             :         : 3A        : N              
+rx_Para_data_bank[0][3][0]   : AD15      : output : 2.5 V             :         : 3A        : N              
 VCCIO3A                      : AD16      : power  :                   : 2.5V    : 3A        :                
 GND                          : AD17      : gnd    :                   :         :           :                
-error_cnt_ch_bank[0][1][14]  : AD18      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][11]  : AD18      : output : 2.5 V             :         : 3A        : N              
 VCCIO3A                      : AD19      : power  :                   : 2.5V    : 3A        :                
 GND                          : AD20      : gnd    :                   :         :           :                
-error_cnt_ch_bank[0][1][13]  : AD21      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][4]   : AD22      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][12]  : AD23      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][3]   : AD24      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][4]   : AD21      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][9]   : AD22      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][13]  : AD23      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][14]  : AD24      : output : 2.5 V             :         : 3A        : N              
 GXB_GND*                     : AD25      :        :                   :         : QL0       :                
 GXB_GND*                     : AD26      :        :                   :         : QL0       :                
 GND                          : AD27      : gnd    :                   :         :           :                
 GND                          : AD28      : gnd    :                   :         :           :                
-rx_Para_data_bank[0][3][4]   : AE1       : output : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE1       :        :                   :         : 5A        :                
 VCCIO5A                      : AE2       : power  :                   : 2.5V    : 5A        :                
-rx_Para_data_bank[0][3][5]   : AE3       : output : 2.5 V             :         : 5A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AE4       :        :                   :         : 4A        :                
-tx_Para_data_bank[0][3][2]   : AE5       : input  : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][3][11]  : AE6       : output : 2.5 V             :         : 4A        : N              
-tx_Para_data_bank[0][3][14]  : AE7       : input  : 2.5 V             :         : 4A        : N              
+rx_Para_data_bank[0][2][10]  : AE3       : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][0][4]   : AE4       : output : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][0][15]  : AE5       : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE6       :        :                   :         : 4A        :                
+tx_Para_data_bank[0][2][3]   : AE7       : input  : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AE8       :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AE9       :        :                   :         : 4A        :                
-rx_Para_data_bank[0][2][11]  : AE10      : output : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][0][4]   : AE9       : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE10      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AE11      :        :                   :         : 4A        :                
-rx_Para_data_bank[0][0][13]  : AE12      : output : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][2][7]   : AE13      : output : 2.5 V             :         : 4A        : N              
+rx_Para_data_bank[0][2][15]  : AE12      : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][6]   : AE13      : output : 2.5 V             :         : 4A        : N              
 GND+                         : AE14      :        :                   :         : 4A        :                
 XCVR_Ref_Clock_external      : AE15      : input  : LVDS              :         : 3A        : Y              
-error_cnt_ch_bank[0][0][13]  : AE16      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][8]   : AE17      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][2]   : AE18      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][10]  : AE19      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][12]  : AE20      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][15]  : AE21      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][7]   : AE22      : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE16      :        :                   :         : 3A        :                
+ext_tx_para_data_clk_bank[0][2] : AE17      : output : 2.5 V             :         : 3A        : N              
+tx_Para_data_bank[0][1][10]  : AE18      : input  : 2.5 V             :         : 3A        : N              
+tx_Para_data_bank[0][3][8]   : AE19      : input  : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE20      :        :                   :         : 3A        :                
+error_cnt_ch_bank[0][0][1]   : AE21      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][12]  : AE22      : output : 2.5 V             :         : 3A        : N              
 GND                          : AE23      : gnd    :                   :         :           :                
 GXB_NC                       : AE24      :        :                   :         : QL0       :                
 GND                          : AE25      : gnd    :                   :         :           :                
 GND                          : AE26      : gnd    :                   :         :           :                
 GXB_GND*                     : AE27      :        :                   :         : QL0       :                
 GXB_GND*                     : AE28      :        :                   :         : QL0       :                
-tx_Para_data_bank[0][0][15]  : AF1       : input  : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][3][0]   : AF2       : output : 2.5 V             :         : 4A        : N              
-tx_Para_data_bank[0][3][3]   : AF3       : input  : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][1][14]  : AF4       : output : 2.5 V             :         : 4A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AF5       :        :                   :         : 4A        :                
-tx_Para_data_bank[0][2][12]  : AF6       : input  : 2.5 V             :         : 4A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AF7       :        :                   :         : 4A        :                
-tx_Para_data_bank[0][0][6]   : AF8       : input  : 2.5 V             :         : 4A        : N              
-tx_Para_data_bank[0][0][13]  : AF9       : input  : 2.5 V             :         : 4A        : N              
-tx_Para_data_bank[0][0][3]   : AF10      : input  : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][0][7]   : AF11      : output : 2.5 V             :         : 4A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AF12      :        :                   :         : 4A        :                
-rx_Para_data_bank[0][3][7]   : AF13      : output : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][1][2]   : AF1       : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF2       :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF3       :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF4       :        :                   :         : 4A        :                
+tx_Para_data_bank[0][3][1]   : AF5       : input  : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][2][15]  : AF6       : input  : 2.5 V             :         : 4A        : N              
+rx_Para_data_bank[0][0][13]  : AF7       : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF8       :        :                   :         : 4A        :                
+rx_Para_data_bank[0][1][9]   : AF9       : output : 2.5 V             :         : 4A        : N              
+rx_Para_data_bank[0][3][12]  : AF10      : output : 2.5 V             :         : 4A        : N              
+rx_Para_data_bank[0][1][7]   : AF11      : output : 2.5 V             :         : 4A        : N              
+rx_Para_data_bank[0][0][8]   : AF12      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF13      :        :                   :         : 4A        :                
 GND+                         : AF14      :        :                   :         : 4A        :                
 XCVR_Ref_Clock_external(n)   : AF15      : input  : LVDS              :         : 3A        : Y              
-error_cnt_ch_bank[0][0][5]   : AF16      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][0]   : AF17      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][7]   : AF18      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][11]  : AF19      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][1]   : AF20      : output : 2.5 V             :         : 3A        : N              
+rx_Para_data_bank[0][3][1]   : AF16      : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF17      :        :                   :         : 3A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF18      :        :                   :         : 3A        :                
+rx_Para_data_bank[0][1][10]  : AF19      : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF20      :        :                   :         : 3A        :                
 NC                           : AF21      :        :                   :         :           :                
 NC                           : AF22      :        :                   :         :           :                
 GND                          : AF23      : gnd    :                   :         :           :                
@@ -270,25 +270,25 @@ GND                          : AF25      : gnd    :                   :         
 GND                          : AF26      : gnd    :                   :         :           :                
 GND                          : AF27      : gnd    :                   :         :           :                
 GND                          : AF28      : gnd    :                   :         :           :                
-tx_Para_data_bank[0][2][11]  : AG1       : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG1       :        :                   :         : 4A        :                
 GND                          : AG2       : gnd    :                   :         :           :                
-rx_Para_data_bank[0][0][5]   : AG3       : output : 2.5 V             :         : 4A        : N              
-tx_Para_data_bank[0][1][10]  : AG4       : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG3       :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG4       :        :                   :         : 4A        :                
 GND                          : AG5       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AG6       :        :                   :         : 4A        :                
+error_cnt_ch_bank[0][1][9]   : AG6       : output : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : AG7       : power  :                   : 2.5V    : 4A        :                
 GND                          : AG8       : gnd    :                   :         :           :                
-error_cnt_ch_bank[0][2][5]   : AG9       : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][4]   : AG9       : output : 2.5 V             :         : 4A        : N              
 VCCIO4A                      : AG10      : power  :                   : 2.5V    : 4A        :                
 GND                          : AG11      : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AG12      :        :                   :         : 4A        :                
 VCCIO4A                      : AG13      : power  :                   : 2.5V    : 4A        :                
 GND                          : AG14      : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AG15      :        :                   :         : 3A        :                
+tx_Para_data_bank[0][2][2]   : AG15      : input  : 2.5 V             :         : 3A        : N              
 VCCIO3A                      : AG16      : power  :                   : 2.5V    : 3A        :                
 GND                          : AG17      : gnd    :                   :         :           :                
-rx_Para_data_bank[0][2][1]   : AG18      : output : 2.5 V             :         : 3A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AG19      :        :                   :         : 3A        :                
+error_cnt_ch_bank[0][1][2]   : AG18      : output : 2.5 V             :         : 3A        : N              
+rx_Para_data_bank[0][2][13]  : AG19      : output : 2.5 V             :         : 3A        : N              
 GND                          : AG20      : gnd    :                   :         :           :                
 GND                          : AG21      : gnd    :                   :         :           :                
 GND                          : AG22      : gnd    :                   :         :           :                
@@ -298,24 +298,24 @@ GXB_GND*                     : AG25      :        :                   :         
 GND                          : AG26      : gnd    :                   :         :           :                
 GXB_NC                       : AG27      :        :                   :         : QL0       :                
 GND                          : AG28      : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AH2       :        :                   :         : 4A        :                
+rx_Para_data_bank[0][2][2]   : AH2       : output : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH3       :        :                   :         : 4A        :                
-rx_Para_data_bank[0][1][3]   : AH4       : output : 2.5 V             :         : 4A        : N              
-clk_div_out                  : AH5       : output : 2.5 V             :         : 4A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AH6       :        :                   :         : 4A        :                
-rx_Para_data_bank[0][3][9]   : AH7       : output : 2.5 V             :         : 4A        : N              
-error_cnt_ch_bank[0][2][3]   : AH8       : output : 2.5 V             :         : 4A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : AH9       :        :                   :         : 4A        :                
-error_cnt_ch_bank[0][2][0]   : AH10      : output : 2.5 V             :         : 4A        : N              
-error_cnt_ch_bank[0][2][8]   : AH11      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH4       :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH5       :        :                   :         : 4A        :                
+error_cnt_ch_bank[0][1][0]   : AH6       : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][15]  : AH7       : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][7]   : AH8       : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][12]  : AH9       : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][10]  : AH10      : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][13]  : AH11      : output : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH12      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH13      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH14      :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AH15      :        :                   :         : 3A        :                
-rx_Para_data_bank[0][1][10]  : AH16      : output : 2.5 V             :         : 3A        : N              
-rx_Para_data_bank[0][3][10]  : AH17      : output : 2.5 V             :         : 3A        : N              
-rx_Para_data_bank[0][2][0]   : AH18      : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][0][9]   : AH19      : output : 2.5 V             :         : 3A        : N              
+tx_Para_data_bank[0][3][5]   : AH15      : input  : 2.5 V             :         : 3A        : N              
+rx_Para_data_bank[0][2][11]  : AH16      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][1][14]  : AH17      : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][1][5]   : AH18      : output : 2.5 V             :         : 3A        : N              
+rx_Para_data_bank[0][3][6]   : AH19      : output : 2.5 V             :         : 3A        : N              
 GND                          : AH20      : gnd    :                   :         :           :                
 RREF                         : AH21      :        :                   :         :           :                
 GND                          : AH22      : gnd    :                   :         :           :                
@@ -326,23 +326,23 @@ GND                          : AH26      : gnd    :                   :         
 GXB_NC                       : AH27      :        :                   :         : QL0       :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B1        :        :                   :         : 6A        :                
 GND                          : B2        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B3        :        :                   :         : 7A        :                
+rx_Para_data_bank[0][1][5]   : B3        : output : 2.5 V             :         : 7A        : N              
 VCCIO7A                      : B4        : power  :                   : 2.5V    : 7A        :                
 GND                          : B5        : gnd    :                   :         :           :                
-error_cnt_ch_bank[0][3][4]   : B6        : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][9]   : B6        : output : 2.5 V             :         : 7A        : N              
 VCCIO7A                      : B7        : power  :                   : 2.5V    : 7A        :                
 GND                          : B8        : gnd    :                   :         :           :                
-ext_rx_para_data_clk_bank[0][0] : B9        : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][0]   : B9        : output : 2.5 V             :         : 7A        : N              
 VCCIO7A                      : B10       : power  :                   : 2.5V    : 7A        :                
 GND                          : B11       : gnd    :                   :         :           :                
-error_cnt_ch_bank[0][3][7]   : B12       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][10]  : B12       : output : 2.5 V             :         : 7A        : N              
 VCCIO7A                      : B13       : power  :                   : 2.5V    : 7A        :                
 GND                          : B14       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B15       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 8A        :                
 GND                          : B17       : gnd    :                   :         :           :                
 VCCIO8A                      : B18       : power  :                   : 3.3V    : 8A        :                
-tx_Para_data_bank[0][0][9]   : B19       : input  : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B19       :        :                   :         : 8A        :                
 GND                          : B20       : gnd    :                   :         :           :                
 GND                          : B21       : gnd    :                   :         :           :                
 GND                          : B22       : gnd    :                   :         :           :                
@@ -352,25 +352,25 @@ GND                          : B25       : gnd    :                   :         
 GXB_NC                       : B26       :        :                   :         : QL2       :                
 GND                          : B27       : gnd    :                   :         :           :                
 GND                          : B28       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C1        :        :                   :         : 6A        :                
-tx_Para_data_bank[0][1][1]   : C2        : input  : 2.5 V             :         : 6A        : N              
-tx_Para_data_bank[0][1][5]   : C3        : input  : 2.5 V             :         : 6A        : N              
-tx_Para_data_bank[0][2][6]   : C4        : input  : 2.5 V             :         : 7A        : N              
-rx_Para_data_bank[0][1][12]  : C5        : output : 2.5 V             :         : 7A        : N              
-rx_Para_data_bank[0][1][13]  : C6        : output : 2.5 V             :         : 7A        : N              
-ext_tx_para_data_clk_bank[0][3] : C7        : output : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][1][2]   : C8        : input  : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][1][14]  : C9        : input  : 2.5 V             :         : 7A        : N              
+tx_Para_data_bank[0][1][12]  : C1        : input  : 2.5 V             :         : 6A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 6A        :                
+rx_Para_data_bank[0][0][0]   : C3        : output : 2.5 V             :         : 6A        : N              
+rx_Para_data_bank[0][1][15]  : C4        : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C5        :        :                   :         : 7A        :                
+rx_Para_data_bank[0][2][0]   : C6        : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C7        :        :                   :         : 7A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 7A        :                
+error_cnt_ch_bank[0][3][11]  : C9        : output : 2.5 V             :         : 7A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : C10       :        :                   :         : 7A        :                
-tx_Para_data_bank[0][3][1]   : C11       : input  : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][0][10]  : C12       : input  : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][1][12]  : C13       : input  : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][4]   : C11       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][0]   : C12       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][10]  : C13       : output : 2.5 V             :         : 7A        : N              
 GND+                         : C14       :        :                   :         : 7A        :                
 GND+                         : C15       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C16       :        :                   :         : 8A        :                
-tx_Para_data_bank[0][1][3]   : C17       : input  : 2.5 V             :         : 8A        : N              
-tx_Para_data_bank[0][1][11]  : C18       : input  : 2.5 V             :         : 8A        : N              
-tx_Para_data_bank[0][0][8]   : C19       : input  : 2.5 V             :         : 8A        : N              
+tx_Para_data_bank[0][1][15]  : C17       : input  : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C18       :        :                   :         : 8A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C19       :        :                   :         : 8A        :                
 VCCIO8A                      : C20       : power  :                   : 3.3V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C21       :        :                   :         : 8A        :                
 GND                          : C22       : gnd    :                   :         :           :                
@@ -380,19 +380,19 @@ GND                          : C25       : gnd    :                   :         
 GND                          : C26       : gnd    :                   :         :           :                
 GXB_GND*                     : C27       :        :                   :         : QL2       :                
 GXB_GND*                     : C28       :        :                   :         : QL2       :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D1        :        :                   :         : 6A        :                
+tx_Para_data_bank[0][0][12]  : D1        : input  : 2.5 V             :         : 6A        : N              
 VCCIO6A                      : D2        : power  :                   : 2.5V    : 6A        :                
-rx_Para_data_bank[0][1][8]   : D3        : output : 2.5 V             :         : 6A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : D4        :        :                   :         : 7A        :                
-tx_Para_data_bank[0][1][15]  : D5        : input  : 2.5 V             :         : 7A        : N              
-rx_Para_data_bank[0][2][9]   : D6        : output : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][1][7]   : D7        : input  : 2.5 V             :         : 7A        : N              
-rx_Para_data_bank[0][1][4]   : D8        : output : 2.5 V             :         : 7A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 7A        :                
-rx_Para_data_bank[0][1][5]   : D10       : output : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][3][15]  : D11       : input  : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][0][4]   : D12       : input  : 2.5 V             :         : 7A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : D13       :        :                   :         : 7A        :                
+tx_Para_data_bank[0][0][13]  : D3        : input  : 2.5 V             :         : 6A        : N              
+rx_Para_data_bank[0][1][11]  : D4        : output : 2.5 V             :         : 7A        : N              
+ext_rx_para_data_clk_bank[0][1] : D5        : output : 2.5 V             :         : 7A        : N              
+clk_div_out                  : D6        : output : 2.5 V             :         : 7A        : N              
+ext_tx_para_data_clk_bank[0][3] : D7        : output : 2.5 V             :         : 7A        : N              
+tx_Para_data_bank[0][3][2]   : D8        : input  : 2.5 V             :         : 7A        : N              
+rx_Para_data_bank[0][1][14]  : D9        : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][9]   : D10       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][3]   : D11       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][13]  : D12       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][15]  : D13       : output : 2.5 V             :         : 7A        : N              
 init_clk                     : D14       : input  : 3.3-V LVCMOS      :         : 7A        : Y              
 GND+                         : D15       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D16       :        :                   :         : 8A        :                
@@ -408,19 +408,19 @@ GXB_GND*                     : D25       :        :                   :         
 GXB_GND*                     : D26       :        :                   :         : QL2       :                
 GND                          : D27       : gnd    :                   :         :           :                
 GND                          : D28       : gnd    :                   :         :           :                
-rx_Para_data_bank[0][2][13]  : E1        : output : 2.5 V             :         : 6A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E1        :        :                   :         : 6A        :                
 GND                          : E2        : gnd    :                   :         :           :                
-ext_rx_para_data_clk_bank[0][3] : E3        : output : 2.5 V             :         : 6A        : N              
+rx_Para_data_bank[0][0][9]   : E3        : output : 2.5 V             :         : 6A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E4        :        :                   :         : 6A        :                
 GND                          : E5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E6        :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 7A        :                
+Ref_clock_ckh_LED            : E7        : output : 2.5 V             :         : 7A        : N              
 GND                          : E8        : gnd    :                   :         :           :                
-tx_Para_data_bank[0][3][10]  : E9        : input  : 2.5 V             :         : 7A        : N              
-rx_Para_data_bank[0][0][14]  : E10       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E9        :        :                   :         : 7A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E10       :        :                   :         : 7A        :                
 GND                          : E11       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E12       :        :                   :         : 7A        :                
-error_cnt_ch_bank[0][3][3]   : E13       : output : 2.5 V             :         : 7A        : N              
+rx_Para_data_bank[0][1][2]   : E12       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][8]   : E13       : output : 2.5 V             :         : 7A        : N              
 GND                          : E14       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E15       :        :                   :         : 8A        :                
 VCCIO8A                      : E16       : power  :                   : 3.3V    : 8A        :                
@@ -429,55 +429,55 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : E18       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : E19       :        :                   :         : 8A        :                
 GND                          : E20       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E21       :        :                   :         : 8A        :                
-tx_Para_data_bank[0][2][4]   : E22       : input  : 2.5 V             :         : 8A        : N              
+tx_Para_data_bank[0][0][6]   : E22       : input  : 2.5 V             :         : 8A        : N              
 GND                          : E23       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E24       :        :                   :         : 8A        :                
+tx_Para_data_bank[0][0][7]   : E24       : input  : 2.5 V             :         : 8A        : N              
 GND                          : E25       : gnd    :                   :         :           :                
 GND                          : E26       : gnd    :                   :         :           :                
 GXB_GND*                     : E27       :        :                   :         : QL2       :                
 GXB_GND*                     : E28       :        :                   :         : QL2       :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F1        :        :                   :         : 6A        :                
+rx_Para_data_bank[0][1][12]  : F1        : output : 2.5 V             :         : 6A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :         : 6A        :                
 rx_Para_data_bank[0][2][14]  : F3        : output : 2.5 V             :         : 6A        : N              
-rx_Para_data_bank[0][2][12]  : F4        : output : 2.5 V             :         : 6A        : N              
-rx_Para_data_bank[0][0][15]  : F5        : output : 2.5 V             :         : 6A        : N              
+rx_Para_data_bank[0][0][11]  : F4        : output : 2.5 V             :         : 6A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F5        :        :                   :         : 6A        :                
 DNU                          : F6        :        :                   :         :           :                
-rx_Para_data_bank[0][3][6]   : F7        : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F7        :        :                   :         : 7A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F8        :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F9        :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F10       :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F11       :        :                   :         : 7A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F12       :        :                   :         : 7A        :                
-rx_Para_data_bank[0][0][11]  : F13       : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][15]  : F14       : output : 2.5 V             :         : 7A        : N              
+rx_Para_data_bank[0][2][3]   : F9        : output : 2.5 V             :         : 7A        : N              
+tx_traffic_ready_ext_bank[0] : F10       : output : 2.5 V             :         : 7A        : N              
+tx_Para_data_bank[0][2][1]   : F11       : input  : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][6]   : F12       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][1]   : F13       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][7]   : F14       : output : 2.5 V             :         : 7A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F15       :        :                   :         : 8A        :                
-tx_Para_data_bank[0][0][7]   : F16       : input  : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F16       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F17       :        :                   :         : 8A        :                
 VCCIO8A                      : F18       : power  :                   : 3.3V    : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F19       :        :                   :         : 8A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F20       :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F21       :        :                   :         : 8A        :                
-tx_Para_data_bank[0][2][14]  : F22       : input  : 2.5 V             :         : 8A        : N              
+tx_Para_data_bank[0][2][13]  : F21       : input  : 2.5 V             :         : 8A        : N              
+tx_Para_data_bank[0][2][9]   : F22       : input  : 2.5 V             :         : 8A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F23       :        :                   :         : 8A        :                
 opt0_reset_n                 : F24       : output : 3.3-V LVCMOS      :         : 8A        : Y              
 GXB_NC                       : F25       :        :                   :         : QL2       :                
 GXB_NC                       : F26       :        :                   :         : QL2       :                
 GND                          : F27       : gnd    :                   :         :           :                
 GND                          : F28       : gnd    :                   :         :           :                
-rx_Para_data_bank[0][0][10]  : G1        : output : 2.5 V             :         : 6A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G1        :        :                   :         : 6A        :                
 VCCIO6A                      : G2        : power  :                   : 2.5V    : 6A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G3        :        :                   :         : 6A        :                
-tx_traffic_ready_ext_bank[0] : G4        : output : 2.5 V             :         : 6A        : N              
-rx_Para_data_bank[0][2][15]  : G5        : output : 2.5 V             :         : 6A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : G6        :        :                   :         : 6A        :                
+rx_Para_data_bank[0][0][1]   : G4        : output : 2.5 V             :         : 6A        : N              
+tx_Para_data_bank[0][3][3]   : G5        : input  : 2.5 V             :         : 6A        : N              
+tx_Para_data_bank[0][3][14]  : G6        : input  : 2.5 V             :         : 6A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : G7        :        :                   :         : 7A        :                
 VCCD_PLL_2                   : G8        : power  :                   : 0.9V    :           :                
 GND                          : G9        : gnd    :                   :         :           :                
-tx_Para_data_bank[0][2][8]   : G10       : input  : 2.5 V             :         : 7A        : N              
-ext_tx_para_data_clk_bank[0][0] : G11       : output : 2.5 V             :         : 7A        : N              
-rx_Para_data_bank[0][1][6]   : G12       : output : 2.5 V             :         : 7A        : N              
-rx_Para_data_bank[0][1][15]  : G13       : output : 2.5 V             :         : 7A        : N              
-error_cnt_ch_bank[0][3][10]  : G14       : output : 2.5 V             :         : 7A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G10       :        :                   :         : 7A        :                
+tx_Para_data_bank[0][3][11]  : G11       : input  : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][12]  : G12       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][2]   : G13       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][14]  : G14       : output : 2.5 V             :         : 7A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : G15       :        :                   :         : 8A        :                
 VCCPD8A                      : G16       : power  :                   : 3.3V    : 8A        :                
 opt0_en                      : G17       : output : 3.3-V LVCMOS      :         : 8A        : Y              
@@ -492,13 +492,13 @@ GND                          : G25       : gnd    :                   :         
 GND                          : G26       : gnd    :                   :         :           :                
 GXB_GND*                     : G27       :        :                   :         : QL2       :                
 GXB_GND*                     : G28       :        :                   :         : QL2       :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : H1        :        :                   :         : 6A        :                
+tx_Para_data_bank[0][0][0]   : H1        : input  : 2.5 V             :         : 6A        : N              
 GND                          : H2        : gnd    :                   :         :           :                
-rx_Para_data_bank[0][3][1]   : H3        : output : 2.5 V             :         : 6A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : H4        :        :                   :         : 6A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H3        :        :                   :         : 6A        :                
+rx_Para_data_bank[0][3][5]   : H4        : output : 2.5 V             :         : 6A        : N              
 GND                          : H5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H6        :        :                   :         : 6A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : H7        :        :                   :         : 6A        :                
+rx_Para_data_bank[0][3][3]   : H7        : output : 2.5 V             :         : 6A        : N              
 GND                          : H8        : gnd    :                   :         :           :                
 VCCA_PLL_2                   : H9        : power  :                   : 2.5V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H10       :        :                   :         : 7A        :                
@@ -506,7 +506,7 @@ GND                          : H11       : gnd    :                   :         
 VREFB7AN0                    : H12       : power  :                   :         : 7A        :                
 VCCPD7A                      : H13       : power  :                   : 2.5V    : 7A        :                
 GND                          : H14       : gnd    :                   :         :           :                
-tx_Para_data_bank[0][3][4]   : H15       : input  : 2.5 V             :         : 8A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H15       :        :                   :         : 8A        :                
 VCCPD8A                      : H16       : power  :                   : 3.3V    : 8A        :                
 GND                          : H17       : gnd    :                   :         :           :                
 VREFB8AN0                    : H18       : power  :                   :         : 8A        :                
@@ -520,26 +520,26 @@ GXB_NC                       : H25       :        :                   :         
 GXB_NC                       : H26       :        :                   :         : QL2       :                
 GND                          : H27       : gnd    :                   :         :           :                
 GND                          : H28       : gnd    :                   :         :           :                
-rx_Para_data_bank[0][0][4]   : J1        : output : 2.5 V             :         : 6A        : N              
-rx_Para_data_bank[0][0][12]  : J2        : output : 2.5 V             :         : 6A        : N              
+rx_Para_data_bank[0][0][6]   : J1        : output : 2.5 V             :         : 6A        : N              
+rx_Para_data_bank[0][1][13]  : J2        : output : 2.5 V             :         : 6A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : J3        :        :                   :         : 6A        :                
-rx_Para_data_bank[0][1][1]   : J4        : output : 2.5 V             :         : 6A        : N              
-rx_Para_data_bank[0][3][3]   : J5        : output : 2.5 V             :         : 6A        : N              
+tx_Para_data_bank[0][3][13]  : J4        : input  : 2.5 V             :         : 6A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J5        :        :                   :         : 6A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J6        :        :                   :         : 6A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J7        :        :                   :         : 6A        :                
-rx_Para_data_bank[0][0][9]   : J8        : output : 2.5 V             :         : 6A        : N              
-tx_Para_data_bank[0][3][6]   : J9        : input  : 2.5 V             :         : 7A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : J10       :        :                   :         : 7A        :                
-rx_Para_data_bank[0][2][8]   : J11       : output : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][0][2]   : J12       : input  : 2.5 V             :         : 7A        : N              
+tx_Para_data_bank[0][1][9]   : J8        : input  : 2.5 V             :         : 6A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J9        :        :                   :         : 7A        :                
+tx_Para_data_bank[0][0][10]  : J10       : input  : 2.5 V             :         : 7A        : N              
+rx_Para_data_bank[0][3][9]   : J11       : output : 2.5 V             :         : 7A        : N              
+rx_Para_data_bank[0][2][7]   : J12       : output : 2.5 V             :         : 7A        : N              
 VCCPD7A                      : J13       : power  :                   : 2.5V    : 7A        :                
-error_cnt_ch_bank[0][3][8]   : J14       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][5]   : J14       : output : 2.5 V             :         : 7A        : N              
 VCCCB                        : J15       : power  :                   : 1.5V    :           :                
 opt1_en                      : J16       : output : 3.3-V LVCMOS      :         : 8A        : Y              
 opt1_dis                     : J17       : output : 3.3-V LVCMOS      :         : 8A        : Y              
-tx_Para_data_bank[0][0][12]  : J18       : input  : 2.5 V             :         : 8A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : J19       :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : J20       :        :                   :         : 8A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J18       :        :                   :         : 8A        :                
+tx_Para_data_bank[0][1][5]   : J19       : input  : 2.5 V             :         : 8A        : N              
+tx_Para_data_bank[0][2][5]   : J20       : input  : 2.5 V             :         : 8A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : J21       :        :                   :         : 8A        :                
 ASDO                         : J22       :        :                   :         : 8C        :                
 altera_reserved_tms          : J23       : input  : 2.5 V             :         : 8C        : N              
@@ -551,22 +551,22 @@ GXB_GND*                     : J28       :        :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : K1        :        :                   :         : 6A        :                
 VCCIO6A                      : K2        : power  :                   : 2.5V    : 6A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : K3        :        :                   :         : 6A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K4        :        :                   :         : 6A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K5        :        :                   :         : 6A        :                
-ext_rx_para_data_clk_bank[0][1] : K6        : output : 2.5 V             :         : 6A        : N              
+rx_Para_data_bank[0][3][14]  : K4        : output : 2.5 V             :         : 6A        : N              
+tx_Para_data_bank[0][2][7]   : K5        : input  : 2.5 V             :         : 6A        : N              
+rx_Para_data_bank[0][0][5]   : K6        : output : 2.5 V             :         : 6A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : K7        :        :                   :         : 6A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : K8        :        :                   :         : 6A        :                
-tx_Para_data_bank[0][2][0]   : K9        : input  : 2.5 V             :         : 6A        : N              
-tx_Para_data_bank[0][3][7]   : K10       : input  : 2.5 V             :         : 7A        : N              
-ext_rx_para_data_clk_bank[0][2] : K11       : output : 2.5 V             :         : 7A        : N              
-tx_Para_data_bank[0][3][0]   : K12       : input  : 2.5 V             :         : 7A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : K13       :        :                   :         : 7A        :                
-error_cnt_ch_bank[0][3][12]  : K14       : output : 2.5 V             :         : 7A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : K15       :        :                   :         : 8A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : K16       :        :                   :         : 8A        :                
+tx_Para_data_bank[0][3][9]   : K9        : input  : 2.5 V             :         : 6A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K10       :        :                   :         : 7A        :                
+rx_traffic_ready_ext_bank[0] : K11       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][7]   : K12       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][3][14]  : K13       : output : 2.5 V             :         : 7A        : N              
+error_cnt_ch_bank[0][2][3]   : K14       : output : 2.5 V             :         : 7A        : N              
+tx_Para_data_bank[0][1][1]   : K15       : input  : 2.5 V             :         : 8A        : N              
+tx_Para_data_bank[0][2][12]  : K16       : input  : 2.5 V             :         : 8A        : N              
 VCC                          : K17       : power  :                   : 0.9V    :           :                
 RJ45_CLK_BUF_EN_0_N          : K18       : output : 3.3-V LVCMOS      :         : 8A        : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : K19       :        :                   :         : 8A        :                
+tx_Para_data_bank[0][0][9]   : K19       : input  : 2.5 V             :         : 8A        : N              
 RJ45_CLK_BUF_EN_1_N          : K20       : output : 3.3-V LVCMOS      :         : 8A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : K21       :        :                   :         : 8A        :                
 DATA0                        : K22       : input  :                   :         : 8C        :                
@@ -576,13 +576,13 @@ TX_ser_bnak[0][3]            : K25       : output : 1.5-V PCML        :         
 TX_ser_bnak[0][3](n)         : K26       : output : 1.5-V PCML        :         : QL1       : Y              
 GND                          : K27       : gnd    :                   :         :           :                
 GND                          : K28       : gnd    :                   :         :           :                
-tx_Para_data_bank[0][0][11]  : L1        : input  : 2.5 V             :         : 6A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L1        :        :                   :         : 6A        :                
 GND                          : L2        : gnd    :                   :         :           :                
-tx_Para_data_bank[0][2][10]  : L3        : input  : 2.5 V             :         : 6A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : L4        :        :                   :         : 6A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L3        :        :                   :         : 6A        :                
+ext_tx_para_data_clk_bank[0][0] : L4        : output : 2.5 V             :         : 6A        : N              
 GND                          : L5        : gnd    :                   :         :           :                
-tx_Para_data_bank[0][3][13]  : L6        : input  : 2.5 V             :         : 5A        : N              
-error_cnt_ch_bank[0][2][7]   : L7        : output : 2.5 V             :         : 6A        : N              
+ext_rx_para_data_clk_bank[0][0] : L6        : output : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L7        :        :                   :         : 6A        :                
 GND                          : L8        : gnd    :                   :         :           :                
 VREFB6AN0                    : L9        : power  :                   :         : 6A        :                
 VCC                          : L10       : power  :                   : 0.9V    :           :                
@@ -606,10 +606,10 @@ RX_ser_bank[0][3]            : L27       : input  : 1.5-V PCML        :         
 RX_ser_bank[0][3](n)         : L28       : input  : 1.5-V PCML        :         : QL1       : Y              
 XCVR_Ref_Clock_internal      : M1        : input  : LVDS              :         : 6A        : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : M2        :        :                   :         : 6A        :                
-error_cnt_ch_bank[0][2][12]  : M3        : output : 2.5 V             :         : 6A        : N              
-error_cnt_ch_bank[0][2][13]  : M4        : output : 2.5 V             :         : 6A        : N              
-error_cnt_ch_bank[0][2][11]  : M5        : output : 2.5 V             :         : 5A        : N              
-tx_Para_data_bank[0][1][6]   : M6        : input  : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M3        :        :                   :         : 6A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M4        :        :                   :         : 6A        :                
+tx_Para_data_bank[0][0][5]   : M5        : input  : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M6        :        :                   :         : 5A        :                
 VCCPD6A                      : M7        : power  :                   : 2.5V    : 6A        :                
 VCCPD6A                      : M8        : power  :                   : 2.5V    : 6A        :                
 VCC                          : M9        : power  :                   : 0.9V    :           :                
@@ -635,9 +635,9 @@ GND                          : M28       : gnd    :                   :         
 XCVR_Ref_Clock_internal(n)   : N1        : input  : LVDS              :         : 6A        : Y              
 GND                          : N2        : gnd    :                   :         :           :                
 GND+                         : N3        :        :                   :         : 5A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N4        :        :                   :         : 5A        :                
+rx_Para_data_bank[0][3][15]  : N4        : output : 2.5 V             :         : 5A        : N              
 GND                          : N5        : gnd    :                   :         :           :                
-error_cnt_ch_bank[0][2][9]   : N6        : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][2][12]  : N6        : output : 2.5 V             :         : 5A        : N              
 VCCCB                        : N7        : power  :                   : 1.5V    :           :                
 GND                          : N8        : gnd    :                   :         :           :                
 GND                          : N9        : gnd    :                   :         :           :                
@@ -660,12 +660,12 @@ GND                          : N25       : gnd    :                   :         
 GND                          : N26       : gnd    :                   :         :           :                
 RX_ser_bank[0][2]            : N27       : input  : 1.5-V PCML        :         : QL1       : Y              
 RX_ser_bank[0][2](n)         : N28       : input  : 1.5-V PCML        :         : QL1       : Y              
-error_cnt_ch_bank[0][2][4]   : P1        : output : 2.5 V             :         : 5A        : N              
+tx_Para_data_bank[0][1][6]   : P1        : input  : 2.5 V             :         : 5A        : N              
 GND+                         : P2        :        :                   :         : 5A        :                
-tx_Para_data_bank[0][1][13]  : P3        : input  : 2.5 V             :         : 5A        : N              
-error_cnt_ch_bank[0][2][14]  : P4        : output : 2.5 V             :         : 5A        : N              
-rx_Para_data_bank[0][3][15]  : P5        : output : 2.5 V             :         : 5A        : N              
-tx_Para_data_bank[0][3][5]   : P6        : input  : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][1][6]   : P3        : output : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P4        :        :                   :         : 5A        :                
+ext_rx_para_data_clk_bank[0][2] : P5        : output : 2.5 V             :         : 5A        : N              
+tx_Para_data_bank[0][2][8]   : P6        : input  : 2.5 V             :         : 5A        : N              
 VCCD_PLL_5                   : P7        : power  :                   : 0.9V    :           :                
 VCCA_PLL_5                   : P8        : power  :                   : 2.5V    :           :                
 VCC                          : P9        : power  :                   : 0.9V    :           :                
@@ -688,12 +688,12 @@ GXB_GND*                     : P25       :        :                   :         
 GXB_GND*                     : P26       :        :                   :         : QL1       :                
 GND                          : P27       : gnd    :                   :         :           :                
 GND                          : P28       : gnd    :                   :         :           :                
-rx_Para_data_bank[0][1][2]   : R1        : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][0][7]   : R1        : output : 2.5 V             :         : 5A        : N              
 VCCIO5A                      : R2        : power  :                   : 2.5V    : 5A        :                
-tx_Para_data_bank[0][2][9]   : R3        : input  : 2.5 V             :         : 5A        : N              
-error_cnt_ch_bank[0][2][15]  : R4        : output : 2.5 V             :         : 5A        : N              
-rx_Para_data_bank[0][3][12]  : R5        : output : 2.5 V             :         : 5A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : R6        :        :                   :         : 5A        :                
+tx_Para_data_bank[0][2][11]  : R3        : input  : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R4        :        :                   :         : 5A        :                
+rx_Para_data_bank[0][2][9]   : R5        : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][0][3]   : R6        : output : 2.5 V             :         : 5A        : N              
 VCCA_PLL_6                   : R7        : power  :                   : 2.5V    :           :                
 VCCD_PLL_6                   : R8        : power  :                   : 0.9V    :           :                
 GND                          : R9        : gnd    :                   :         :           :                
@@ -716,12 +716,12 @@ GND                          : R25       : gnd    :                   :         
 GND                          : R26       : gnd    :                   :         :           :                
 GXB_GND*                     : R27       :        :                   :         : QL1       :                
 GXB_GND*                     : R28       :        :                   :         : QL1       :                
-error_cnt_ch_bank[0][2][1]   : T1        : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][3][11]  : T1        : output : 2.5 V             :         : 5A        : N              
 GND                          : T2        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 5A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T4        :        :                   :         : 5A        :                
+tx_Para_data_bank[0][3][7]   : T4        : input  : 2.5 V             :         : 5A        : N              
 GND                          : T5        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T6        :        :                   :         : 5A        :                
+tx_Para_data_bank[0][1][3]   : T6        : input  : 2.5 V             :         : 5A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 5A        :                
 GND                          : T8        : gnd    :                   :         :           :                
 VCC                          : T9        : power  :                   : 0.9V    :           :                
@@ -744,12 +744,12 @@ TX_ser_bnak[0][1]            : T25       : output : 1.5-V PCML        :         
 TX_ser_bnak[0][1](n)         : T26       : output : 1.5-V PCML        :         : QL1       : Y              
 GND                          : T27       : gnd    :                   :         :           :                
 GND                          : T28       : gnd    :                   :         :           :                
-error_cnt_ch_bank[0][2][10]  : U1        : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][3][4]   : U1        : output : 2.5 V             :         : 5A        : N              
 VCCIO5A                      : U2        : power  :                   : 2.5V    : 5A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U3        :        :                   :         : 5A        :                
-tx_Para_data_bank[0][1][8]   : U4        : input  : 2.5 V             :         : 5A        : N              
-rx_traffic_ready_ext_bank[0] : U5        : output : 2.5 V             :         : 5A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : U6        :        :                   :         : 5A        :                
+tx_Para_data_bank[0][1][0]   : U4        : input  : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][1][0]   : U5        : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][0][12]  : U6        : output : 2.5 V             :         : 5A        : N              
 VCCPD5A                      : U7        : power  :                   : 2.5V    : 5A        :                
 VCCPD5A                      : U8        : power  :                   : 2.5V    : 5A        :                
 GND                          : U9        : gnd    :                   :         :           :                
@@ -767,18 +767,18 @@ VCC                          : U20       : power  :                   : 0.9V    
 VCCA                         : U21       : power  :                   : 2.5V    :           :                
 VCCH_GXB                     : U22       : power  :                   : 1.5V    :           :                
 VCCH_GXB                     : U23       : power  :                   : 1.5V    :           :                
-ext_tx_para_data_clk_bank[0][1] : U24       : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U24       :        :                   :         : 3A        :                
 GND                          : U25       : gnd    :                   :         :           :                
 GND                          : U26       : gnd    :                   :         :           :                
 RX_ser_bank[0][1]            : U27       : input  : 1.5-V PCML        :         : QL1       : Y              
 RX_ser_bank[0][1](n)         : U28       : input  : 1.5-V PCML        :         : QL1       : Y              
-RESERVED_INPUT_WITH_WEAK_PULLUP : V1        :        :                   :         : 5A        :                
+rx_Para_data_bank[0][0][2]   : V1        : output : 2.5 V             :         : 5A        : N              
 GND                          : V2        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V3        :        :                   :         : 5A        :                
-rx_Para_data_bank[0][3][13]  : V4        : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][3][2]   : V4        : output : 2.5 V             :         : 5A        : N              
 GND                          : V5        : gnd    :                   :         :           :                
-rx_Para_data_bank[0][2][6]   : V6        : output : 2.5 V             :         : 5A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : V7        :        :                   :         : 5A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V6        :        :                   :         : 5A        :                
+rx_Para_data_bank[0][2][6]   : V7        : output : 2.5 V             :         : 5A        : N              
 GND                          : V8        : gnd    :                   :         :           :                
 VCC                          : V9        : power  :                   : 0.9V    :           :                
 GND                          : V10       : gnd    :                   :         :           :                
@@ -793,26 +793,26 @@ GND                          : V18       : gnd    :                   :         
 VCC                          : V19       : power  :                   : 0.9V    :           :                
 GND                          : V20       : gnd    :                   :         :           :                
 VCC                          : V21       : power  :                   : 0.9V    :           :                
-error_cnt_ch_bank[0][0][15]  : V22       : output : 2.5 V             :         : 3A        : N              
-ext_tx_para_data_clk_bank[0][2] : V23       : output : 2.5 V             :         : 3A        : N              
+tx_Para_data_bank[0][3][6]   : V22       : input  : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V23       :        :                   :         : 3A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V24       :        :                   :         : 3A        :                
 TX_ser_bnak[0][0]            : V25       : output : 1.5-V PCML        :         : QL1       : Y              
 TX_ser_bnak[0][0](n)         : V26       : output : 1.5-V PCML        :         : QL1       : Y              
 GND                          : V27       : gnd    :                   :         :           :                
 GND                          : V28       : gnd    :                   :         :           :                
-tx_Para_data_bank[0][1][9]   : W1        : input  : 2.5 V             :         : 5A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : W2        :        :                   :         : 5A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : W3        :        :                   :         : 5A        :                
+tx_Para_data_bank[0][3][4]   : W1        : input  : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][0][14]  : W2        : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][2][1]   : W3        : output : 2.5 V             :         : 5A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : W4        :        :                   :         : 5A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : W5        :        :                   :         : 5A        :                
-tx_Para_data_bank[0][0][14]  : W6        : input  : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][2][5]   : W5        : output : 2.5 V             :         : 5A        : N              
+tx_Para_data_bank[0][1][14]  : W6        : input  : 2.5 V             :         : 5A        : N              
 VREFB5AN0                    : W7        : power  :                   :         : 5A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W8        :        :                   :         : 5A        :                
 GND                          : W9        : gnd    :                   :         :           :                
-tx_Para_data_bank[0][3][12]  : W10       : input  : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][2][10]  : W11       : output : 2.5 V             :         : 4A        : N              
-rx_Para_data_bank[0][1][0]   : W12       : output : 2.5 V             :         : 4A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : W13       :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W10       :        :                   :         : 4A        :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W11       :        :                   :         : 4A        :                
+rx_Para_data_bank[0][3][10]  : W12       : output : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][3][15]  : W13       : input  : 2.5 V             :         : 4A        : N              
 VCC                          : W14       : power  :                   : 0.9V    :           :                
 GND                          : W15       : gnd    :                   :         :           :                
 VCC                          : W16       : power  :                   : 0.9V    :           :                
@@ -820,7 +820,7 @@ GND                          : W17       : gnd    :                   :         
 VCC                          : W18       : power  :                   : 0.9V    :           :                
 GND                          : W19       : gnd    :                   :         :           :                
 VCC                          : W20       : power  :                   : 0.9V    :           :                
-error_cnt_ch_bank[0][1][10]  : W21       : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][7]   : W21       : output : 2.5 V             :         : 3A        : N              
 GND                          : W22       : gnd    :                   :         :           :                
 nSTATUS                      : W23       :        :                   :         : 3C        :                
 MSEL0                        : W24       :        :                   :         : 3C        :                
@@ -830,26 +830,26 @@ RX_ser_bank[0][0]            : W27       : input  : 1.5-V PCML        :         
 RX_ser_bank[0][0](n)         : W28       : input  : 1.5-V PCML        :         : QL1       : Y              
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y1        :        :                   :         : 5A        :                
 VCCIO5A                      : Y2        : power  :                   : 2.5V    : 5A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : Y3        :        :                   :         : 5A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : Y4        :        :                   :         : 5A        :                
+rx_Para_data_bank[0][3][7]   : Y3        : output : 2.5 V             :         : 5A        : N              
+rx_Para_data_bank[0][2][4]   : Y4        : output : 2.5 V             :         : 5A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y5        :        :                   :         : 5A        :                
-tx_Para_data_bank[0][1][4]   : Y6        : input  : 2.5 V             :         : 5A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y6        :        :                   :         : 5A        :                
 GND                          : Y7        : gnd    :                   :         :           :                
 VCCA_PLL_3                   : Y8        : power  :                   : 2.5V    :           :                
-Ref_clock_ckh_LED            : Y9        : output : 2.5 V             :         : 5A        : N              
-rx_Para_data_bank[0][0][3]   : Y10       : output : 2.5 V             :         : 4A        : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : Y11       :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : Y12       :        :                   :         : 4A        :                
-tx_Para_data_bank[0][2][13]  : Y13       : input  : 2.5 V             :         : 4A        : N              
-error_cnt_ch_bank[0][2][2]   : Y14       : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y9        :        :                   :         : 5A        :                
+tx_Para_data_bank[0][1][13]  : Y10       : input  : 2.5 V             :         : 4A        : N              
+tx_Para_data_bank[0][2][10]  : Y11       : input  : 2.5 V             :         : 4A        : N              
+rx_Para_data_bank[0][1][4]   : Y12       : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][11]  : Y13       : output : 2.5 V             :         : 4A        : N              
+error_cnt_ch_bank[0][1][8]   : Y14       : output : 2.5 V             :         : 4A        : N              
 VCCCB                        : Y15       : power  :                   : 1.5V    :           :                
-error_cnt_ch_bank[0][0][6]   : Y16       : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y16       :        :                   :         : 3A        :                
 VREFB3AN0                    : Y17       : power  :                   :         : 3A        :                
-rx_Para_data_bank[0][3][8]   : Y18       : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][5]   : Y19       : output : 2.5 V             :         : 3A        : N              
-error_cnt_ch_bank[0][1][2]   : Y20       : output : 2.5 V             :         : 3A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y18       :        :                   :         : 3A        :                
+error_cnt_ch_bank[0][0][5]   : Y19       : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][0]   : Y20       : output : 2.5 V             :         : 3A        : N              
 VCCPD3C                      : Y21       : power  :                   : 2.5V    : 3C        :                
-error_cnt_ch_bank[0][1][1]   : Y22       : output : 2.5 V             :         : 3A        : N              
+error_cnt_ch_bank[0][0][8]   : Y22       : output : 2.5 V             :         : 3A        : N              
 MSEL1                        : Y23       :        :                   :         : 3C        :                
 MSEL2                        : Y24       :        :                   :         : 3C        :                
 GXB_NC                       : Y25       :        :                   :         : QL0       :                

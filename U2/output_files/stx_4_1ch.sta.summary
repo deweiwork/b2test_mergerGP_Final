@@ -3,19 +3,19 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 900mV 100C Model Setup 'altera_reserved_tck'
-Slack : 41.031
+Slack : 42.575
 TNS   : 0.000
 
 Type  : Slow 900mV 100C Model Hold 'altera_reserved_tck'
-Slack : 0.344
+Slack : 0.345
 TNS   : 0.000
 
 Type  : Slow 900mV 100C Model Recovery 'altera_reserved_tck'
-Slack : 92.420
+Slack : 93.016
 TNS   : 0.000
 
 Type  : Slow 900mV 100C Model Removal 'altera_reserved_tck'
-Slack : 0.618
+Slack : 0.684
 TNS   : 0.000
 
 Type  : Slow 900mV 100C Model Minimum Pulse Width 'alt_cal_edge_detect_ff0_clk'
@@ -27,31 +27,31 @@ Slack : 9.132
 TNS   : 0.000
 
 Type  : Slow 900mV 100C Model Minimum Pulse Width 'alt_cal_edge_detect_ff0q_clk'
-Slack : 9.181
+Slack : 9.175
 TNS   : 0.000
 
 Type  : Slow 900mV 100C Model Minimum Pulse Width 'alt_cal_edge_detect_ff1q_clk'
-Slack : 9.181
+Slack : 9.178
 TNS   : 0.000
 
 Type  : Slow 900mV 100C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 49.058
+Slack : 48.999
 TNS   : 0.000
 
 Type  : Slow 900mV -40C Model Setup 'altera_reserved_tck'
-Slack : 41.695
+Slack : 43.019
 TNS   : 0.000
 
 Type  : Slow 900mV -40C Model Hold 'altera_reserved_tck'
-Slack : 0.332
+Slack : 0.333
 TNS   : 0.000
 
 Type  : Slow 900mV -40C Model Recovery 'altera_reserved_tck'
-Slack : 93.083
+Slack : 93.596
 TNS   : 0.000
 
 Type  : Slow 900mV -40C Model Removal 'altera_reserved_tck'
-Slack : 0.582
+Slack : 0.655
 TNS   : 0.000
 
 Type  : Slow 900mV -40C Model Minimum Pulse Width 'alt_cal_edge_detect_ff0_clk'
@@ -62,20 +62,20 @@ Type  : Slow 900mV -40C Model Minimum Pulse Width 'alt_cal_edge_detect_ff1_clk'
 Slack : 9.141
 TNS   : 0.000
 
-Type  : Slow 900mV -40C Model Minimum Pulse Width 'alt_cal_edge_detect_ff1q_clk'
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'alt_cal_edge_detect_ff0q_clk'
 Slack : 9.171
 TNS   : 0.000
 
-Type  : Slow 900mV -40C Model Minimum Pulse Width 'alt_cal_edge_detect_ff0q_clk'
-Slack : 9.180
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'alt_cal_edge_detect_ff1q_clk'
+Slack : 9.172
 TNS   : 0.000
 
 Type  : Slow 900mV -40C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 48.992
+Slack : 48.995
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Setup 'altera_reserved_tck'
-Slack : 45.771
+Slack : 46.674
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Hold 'altera_reserved_tck'
@@ -83,11 +83,11 @@ Slack : 0.157
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Recovery 'altera_reserved_tck'
-Slack : 95.992
+Slack : 96.329
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Removal 'altera_reserved_tck'
-Slack : 0.288
+Slack : 0.309
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Minimum Pulse Width 'alt_cal_edge_detect_ff0_clk'
@@ -103,11 +103,11 @@ Slack : 9.186
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Minimum Pulse Width 'alt_cal_edge_detect_ff1q_clk'
-Slack : 9.197
+Slack : 9.189
 TNS   : 0.000
 
 Type  : Fast 900mV -40C Model Minimum Pulse Width 'altera_reserved_tck'
-Slack : 48.790
+Slack : 48.733
 TNS   : 0.000
 
 ------------------------------------------------------------

@@ -688,12 +688,13 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="9EB81B0B" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/04/21 19:47:08  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="256" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="9EB81B0B" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/04/22 15:12:22  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="256" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">
             <power_up enabled="yes">
-            </power_up><op_node/>
+            </power_up>
+            <op_node/>
           </level>
         </events>
         <storage_qualifier_events>
@@ -720,10 +721,10 @@
     </signal_set>
     <position_info>
       <single attribute="active tab" value="0"/>
-      <single attribute="data horizontal scroll position" value="201"/>
+      <single attribute="data horizontal scroll position" value="135"/>
       <single attribute="data vertical scroll position" value="0"/>
       <single attribute="setup horizontal scroll position" value="0"/>
-      <single attribute="setup vertical scroll position" value="0"/>
+      <single attribute="setup vertical scroll position" value="2"/>
       <single attribute="zoom level denominator" value="1"/>
       <single attribute="zoom level numerator" value="32"/>
       <single attribute="zoom offset denominator" value="1"/>
@@ -1818,7 +1819,7 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="148525B4" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/17 23:02:10  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="148525B4" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/17 23:02:10  #1" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">
@@ -1938,7 +1939,7 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="8FF07244" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/10 19:18:58  #3" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="8FF07244" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/10 19:18:58  #3" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">
@@ -2930,7 +2931,7 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="1D733746" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/04/19 17:12:04  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="1D733746" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/04/19 17:12:04  #0" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">
@@ -3922,7 +3923,7 @@
         <trigger_in_editor/>
         <trigger_out_editor/>
       </presentation>
-      <trigger CRC="1D732C62" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/20 19:21:17  #3" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="false" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
+      <trigger CRC="1D732C62" attribute_mem_mode="false" gap_record="true" global_temp="1" is_expanded="true" name="trigger: 2019/03/20 19:21:17  #3" position="pre" power_up_trigger_mode="false" record_data_gap="true" segment_size="64" storage_mode="off" storage_qualifier_disabled="no" storage_qualifier_port_is_pin="true" storage_qualifier_port_name="auto_stp_external_storage_qualifier" storage_qualifier_port_tap_mode="classic" trigger_type="circular">
         <power_up_trigger position="pre" storage_qualifier_disabled="no"/>
         <events use_custom_flow_control="no">
           <level enabled="yes" name="condition1" type="basic">'XCVR_8B10B_interconnect:\\Connect_XVCR_Module_loop:0:XCVR_Module_gen|ch_sync_buffer:ch_sync_buf_2ch_01|ch_sync_buffer_sync_done' == rising edge
@@ -3965,10 +3966,10 @@
     </position_info>
   </instance>
   <global_info>
-    <single attribute="active instance" value="1"/>
+    <single attribute="active instance" value="0"/>
     <single attribute="config widget visible" value="1"/>
     <single attribute="data log widget visible" value="1"/>
-    <single attribute="hierarchy widget height" value="118"/>
+    <single attribute="hierarchy widget height" value="128"/>
     <single attribute="hierarchy widget visible" value="1"/>
     <single attribute="instance widget visible" value="1"/>
     <single attribute="jtag widget visible" value="1"/>

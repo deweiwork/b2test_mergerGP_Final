@@ -77,6 +77,10 @@ begin
             XCVR_rst_out             <= '1';--(others => '1');
             align_en                 <= '0';
 
+            lane_up_r                <= '0';
+            XCVR_rst_out_r           <= '1';--(others => '1');
+            align_en_r               <= '0';
+
             power_on_cnt    := 0;
             locked_cnt      := 0;
             comma_align_cnt := 0;

@@ -73,7 +73,7 @@ begin
 
     sync_process: process(Reset_n,CLK,sync_en)
     begin
-        if (Reset_n = '0' and sync_en = '0') then
+        if (Reset_n = '0' or sync_en = '0') then
             cnt_ch          <= (others => 0);
             sync_status     <= sync_start;
             out_mux_sel_ch  <= (others => ch_sync_buffer_Length_power - 1); 

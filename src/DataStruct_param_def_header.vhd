@@ -25,7 +25,7 @@ package DataStruct_param_def_header is
     ---------
     --paramenter of xcvr module
     ---------
-    constant xcvr_ser_internal_loopback_en           : std_logic := '0';
+    constant xcvr_ser_internal_loopback_en           : std_logic := '1';
 
     constant para_data_length_per_ch                 : integer range 1 to 64 := 16;
 

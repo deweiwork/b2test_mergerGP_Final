@@ -124,11 +124,11 @@ architecture Top of XCVR_8B10B_interconnect is
     signal rx_Para_data_to_sync_buf_ch      : para_data_men ;
     signal elastic_buf_sync_done            : ser_data_men := (others =>'0');
     signal elastic_can_start_sync           : ser_data_men := (others =>'0');
-    signal sync_buf_overflow_ch_01          : std_logic;
-    signal sync_buf_sync_done_ch_01         : std_logic;
-    signal sync_buf_overflow_ch_23          : std_logic;
-    signal sync_buf_sync_done_ch_23         : std_logic;
-    signal elastic_buf_overflow             : std_logic;
+    signal sync_buf_overflow_ch_01          : std_logic := '0';
+    signal sync_buf_sync_done_ch_01         : std_logic := '0';
+    signal sync_buf_overflow_ch_23          : std_logic := '0';
+    signal sync_buf_sync_done_ch_23         : std_logic := '0';
+    signal elastic_buf_overflow             : std_logic := '0';
 
 begin
     --connect loopback_en

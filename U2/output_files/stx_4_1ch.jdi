@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="707cbcd0c55a14c2645e"/>
+    <hash md5_digest_80b="ab5fedd2bc871bb47494"/>
   </project>
   <file_info>
     <file device="EP2AGX95EF29I3" path="stx_4_1ch.sof" usercode="0xFFFFFFFF"/>
@@ -267,8 +267,8 @@
         <parameter name="SLD_IP_VERSION" type="dec" value="6"/>
         <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="0"/>
         <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
-        <parameter name="sld_data_bits" type="unknown" value="8"/>
-        <parameter name="sld_trigger_bits" type="unknown" value="8"/>
+        <parameter name="sld_data_bits" type="unknown" value="9"/>
+        <parameter name="sld_trigger_bits" type="unknown" value="9"/>
         <parameter name="SLD_NODE_CRC_BITS" type="dec" value="32"/>
         <parameter name="SLD_NODE_CRC_HIWORD" type="dec" value="41394"/>
         <parameter name="SLD_NODE_CRC_LOWORD" type="dec" value="50132"/>
@@ -302,14 +302,14 @@
         <parameter name="SLD_ADVANCED_TRIGGER_8" type="string" value="NONE"/>
         <parameter name="SLD_ADVANCED_TRIGGER_9" type="string" value="NONE"/>
         <parameter name="SLD_ADVANCED_TRIGGER_10" type="string" value="NONE"/>
-        <parameter name="sld_inversion_mask_length" type="unknown" value="48"/>
-        <parameter name="sld_inversion_mask" type="unknown" value="000000000000000000000000000000000000000000000000"/>
+        <parameter name="sld_inversion_mask_length" type="unknown" value="51"/>
+        <parameter name="sld_inversion_mask" type="unknown" value="000000000000000000000000000000000000000000000000000"/>
         <parameter name="sld_power_up_trigger" type="unknown" value="0"/>
         <parameter name="SLD_STATE_FLOW_MGR_ENTITY" type="string" value="state_flow_mgr_entity.vhd"/>
         <parameter name="sld_state_flow_use_generated" type="unknown" value="0"/>
         <parameter name="sld_current_resource_width" type="unknown" value="1"/>
         <parameter name="sld_attribute_mem_mode" type="unknown" value="OFF"/>
-        <parameter name="sld_storage_qualifier_bits" type="unknown" value="8"/>
+        <parameter name="sld_storage_qualifier_bits" type="unknown" value="9"/>
         <parameter name="SLD_STORAGE_QUALIFIER_GAP_RECORD" type="dec" value="0"/>
         <parameter name="SLD_STORAGE_QUALIFIER_MODE" type="string" value="OFF"/>
         <parameter name="SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION" type="dec" value="0"/>
@@ -326,49 +326,49 @@
   <sld_infos>
     <sld_info hpath="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_TX_BUFG_loop:0:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG" name="\generate_TX_BUFG_loop:0:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG">
       <assignment_values>
-        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1555916930"/>
+        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1561101343"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_TX_BUFG_loop:1:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG" name="\generate_TX_BUFG_loop:1:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG">
       <assignment_values>
-        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1555916930"/>
+        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1561101343"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_TX_BUFG_loop:2:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG" name="\generate_TX_BUFG_loop:2:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG">
       <assignment_values>
-        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1555916930"/>
+        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1561101343"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_TX_BUFG_loop:3:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG" name="\generate_TX_BUFG_loop:3:xcvr_tx_data_clk_buf_used_assert:gen_TX_BUFG">
       <assignment_values>
-        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1555916930"/>
+        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1561101343"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_RX_BUFG_loop:0:xcvr_rx_data_clk_buf_used_assert:gen_RX_BUFG" name="\generate_RX_BUFG_loop:0:xcvr_rx_data_clk_buf_used_assert:gen_RX_BUFG">
       <assignment_values>
-        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1555916930"/>
+        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1561101343"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_RX_BUFG_loop:1:xcvr_rx_data_clk_buf_used_assert:gen_RX_BUFG" name="\generate_RX_BUFG_loop:1:xcvr_rx_data_clk_buf_used_assert:gen_RX_BUFG">
       <assignment_values>
-        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1555916930"/>
+        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1561101343"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_RX_BUFG_loop:2:xcvr_rx_data_clk_buf_used_assert:gen_RX_BUFG" name="\generate_RX_BUFG_loop:2:xcvr_rx_data_clk_buf_used_assert:gen_RX_BUFG">
       <assignment_values>
-        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1555916930"/>
+        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1561101343"/>
       </assignment_values>
       <parameters/>
     </sld_info>
     <sld_info hpath="XCVR_8B10B_interconnect:\Connect_XVCR_Module_loop:0:XCVR_Module_gen|clk_buffer:\generate_RX_BUFG_loop:3:xcvr_rx_data_clk_buf_used_assert:gen_RX_BUFG" name="\generate_RX_BUFG_loop:3:xcvr_rx_data_clk_buf_used_assert:gen_RX_BUFG">
       <assignment_values>
-        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1555916930"/>
+        <assignment_value text="QSYS_NAME clk_buffer HAS_SOPCINFO 1 GENERATION_ID 1561101343"/>
       </assignment_values>
       <parameters/>
     </sld_info>
